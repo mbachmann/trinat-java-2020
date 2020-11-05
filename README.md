@@ -66,3 +66,4 @@ Navigate to Import->Maven->Check out Maven project from scm
 If there is no git connector available... please install it
 
 
+## Branch of kisslingmischa.
