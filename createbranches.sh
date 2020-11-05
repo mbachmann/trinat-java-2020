@@ -11,22 +11,46 @@ createbranch () {
   git checkout develop
 }
 
+createbranch bertrandnoemie
+createbranch bollingerjerome
+createbranch burtschyalexis
+createbranch dittmannisabelle
+createbranch engelsamuel
+createbranch farnworthmorgan
+createbranch gourdesmatis
+createbranch jobenzo
+createbranch kindtmichiel
+createbranch kisslingmischa
+createbranch lagellucas
+createbranch legranddimitri
+createbranch mehinovicharis
+createbranch mohlertanja
+createbranch portmanntheo
+createbranch proebstingjonas
+createbranch reytheo
+createbranch roellingermaxime
+createbranch schaetzelmichael
+createbranch schmidtkarolina
+createbranch wyserjennifer
 
-createbranch legrandd
-createbranch LLagel
-createbranch enzojob
-createbranch Schmiche
-createbranch Haris-Mehinovic
-createbranch MatisGourdes
-createbranch KSchmidt888
-createbranch BollingerJerome
-createbranch tMohler57
-createbranch noemiebertrand
-createbranch isiid
-createbranch jonasprob
-createbranch Alexis68128
-createbranch Mitch0499
-createbranch reyTheo
+# Collaborators
+# legrandd
+# LLagel
+# enzojob
+# Schmiche
+# Haris-Mehinovic
+# MatisGourdes
+# KSchmidt888
+# BollingerJerome
+# tMohler57
+# noemiebertrand
+# isiid
+# jonasprob
+# Alexis68128
+# Mitch0499
+# reyTheo
+# samegl
+# srkdt
 
 
 createdevelop () {
