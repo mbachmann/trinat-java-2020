@@ -1,5 +1,7 @@
 package ch.trinat.edu.etutorial.p03.oo6;
 
+package ch.trinat.edu.etutorial.p03.oo6;
+
 import java.io.FileReader;
 import java.io.IOException;
 
