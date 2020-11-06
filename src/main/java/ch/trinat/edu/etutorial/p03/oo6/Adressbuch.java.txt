@@ -1,0 +1,23 @@
+/*
+ * Diese Klasse modelliert ein Adressbuch. Einzelne Einträge werden in einem Vector gespeichert.
+ */
+
+import java.util.*;
+
+public class Adressbuch {
+
+	// Ihre Variablendeklaration
+    
+    public void addPerson (Person p) {
+        // Ihr Code
+    }
+    
+    public String printAll () {
+		// Ihr Code
+    }
+    
+    public void deleteAll () {
+		// Ihr Code
+    }
+    
+}
