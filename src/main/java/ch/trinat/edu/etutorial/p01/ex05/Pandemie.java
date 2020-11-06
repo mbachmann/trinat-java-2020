@@ -4,7 +4,6 @@
 package ch.trinat.edu.etutorial.p01.ex05;
 
 import java.util.Scanner;
-
 import processing.core.PApplet;
 
 public class Pandemie extends PApplet {
