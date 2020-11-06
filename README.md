@@ -1,6 +1,6 @@
 # trinat-java-2020
 
-## Branch of jobenzo.
+## Branch of jobenzo!
 
 Abgabe der Aufgaben für Trinat Java 2020. Für jede(n) Teilnehmer(in) gibt es einen eigenen Branch:
 
