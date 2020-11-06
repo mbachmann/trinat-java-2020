@@ -1,5 +1,7 @@
 # trinat-java-2020
 
+##Branch of kisslingmischa
+
 Abgabe der Aufgaben für Trinat Java 2020. Für jede(n) Teilnehmer(in) gibt es einen eigenen Branch:
 
 <br>
@@ -21,7 +23,6 @@ jonasprob 			|
 Alexis68128 		|
 Mitch0499 			|
 reyTheo 			|
-
 
 ## Non-modular - Maven
 
