@@ -1,0 +1,376 @@
+DEBB021;Potsdam-Zentrum;städtischesGebiet;Hintergrund;27;111;29;19
+DEBB024;Senftenberg;städtischesGebiet;Hintergrund;29;132;29;18
+DEBB026;Spremberg-Süd;städtischesGebiet;Industrie;25;132;19;15
+DEBB029;Schwedt(Oder);vorstädtischesGebiet;Hintergrund;25;117;29;21
+DEBB030;Premnitz;vorstädtischesGebiet;Hintergrund;24;107;20;14
+DEBB031;Königswusterhausen;vorstädtischesGebiet;Hintergrund;26;99;22;16
+DEBB032;Eisenhüttenstadt;vorstädtischesGebiet;Industrie;30;127;36;25
+DEBB042;Frankfurt(Oder);vorstädtischesGebiet;Hintergrund;27;108;30;23
+DEBB043;Luckau;vorstädtischesGebiet;Hintergrund;28;125;27;18
+DEBB044;Cottbus, Bahnhofstr.;städtischesGebiet;Verkehr;42;177;88;44
+DEBB045;Frankfurt(Oder), LeipzigerStr.;städtischesGebiet;Verkehr;41;154;76;40
+DEBB048;Neuruppin;vorstädtischesGebiet;Hintergrund;23;85;21;13
+DEBB049;Brandenburg, NeuendorferStr.;städtischesGebiet;Verkehr;37;194;61;35
+DEBB052;Potsdam-MichendorferChaussee;ländlichstadtnah;Hintergrund;24;116;23;15
+DEBB053;Hasenholz;ländlichregional;Hintergrund;21;85;17;12
+DEBB054;PotsdamZeppelinstr.;ländlichregional;Hintergrund;27;97;17;10
+DEBB055;Brandenburga.d.Havel;vorstädtischesGebiet;Hintergrund;22;104;14;10
+DEBB063;Wittenberge;vorstädtischesGebiet;Hintergrund;21;91;16;12
+DEBB064;Cottbus;städtischesGebiet;Hintergrund;27;149;30;24
+DEBB068;Bernau, Lohmühlenstr.;städtischesGebiet;Verkehr;35;134;54;37
+DEBE010;Wedding-AmrumerStr.;städtischesGebiet;Verkehr;31;130;43;26
+DEBE014;Charlottenburg, Stadtautobahn;städtischesGebiet;Verkehr;47;171;114;65
+DEBE018;Schöneberg-BelzigerStraße;städtischesGebiet;Hintergrund;30;131;39;27
+DEBE027;Marienfelde-Schichauweg;ländlichstadtnah;Industrie;27;117;29;21
+DEBE032;Grunewald(3.5m);ländlichstadtnah;Hintergrund;26;125;28;23
+DEBE034;Neukölln-Nansenstraße;städtischesGebiet;Hintergrund;31;125;42;27
+DEBE044;Mitte-Parochialstr.;städtischesGebiet;Verkehr;37;155;68;41
+DEBE045;Pankow-BlankenfelderStr.;vorstädtischesGebiet;Verkehr;36;135;69;43
+DEBE051;Buch;vorstädtischesGebiet;Hintergrund;28;127;36;28
+DEBE056;Friedrichshagen;ländlichstadtnah;Hintergrund;26;108;25;20
+DEBE061;Steglitz, Schildhornstr.;städtischesGebiet;Verkehr;41;157;80;45
+DEBE062;Frohnau, Funkturm(3.5m);ländlichstadtnah;Hintergrund;28;114;32;25
+DEBE065;Friedrichshain, Frankfurter Allee;städtischesGebiet;Verkehr;43;152;94;54
+DEBE068;Mitte, Brückenstraße;städtischesGebiet;Hintergrund;33;126;36;25
+DEBW001;Karlsruhe-Mitte;städtischesGebiet;Verkehr;29;104;34;16
+DEBW004;Eggenstein;ländlichstadtnah;Hintergrund;26;87;20;9
+DEBW005;Mannheim-Nord;vorstädtischesGebiet;Industrie;28;101;24;10
+DEBW006;Mannheim-Mitte;städtischesGebiet;Hintergrund;28;114;28;10
+DEBW007;Mannheim-Süd;städtischesGebiet;Hintergrund;28;100;23;9
+DEBW009;Heidelberg;städtischesGebiet;Verkehr;25;83;11;2
+DEBW010;Wiesloch;vorstädtischesGebiet;Hintergrund;24;74;12;4
+DEBW011;Stuttgart-Zuffenhausen;städtischesGebiet;Verkehr;31;98;40;25
+DEBW013;StuttgartBadCannstadt;städtischesGebiet;Hintergrund;28;89;23;12
+DEBW015;Heilbronn;vorstädtischesGebiet;Verkehr;30;111;34;16
+DEBW019;Ulm;städtischesGebiet;Hintergrund;29;124;25;12
+DEBW020;Rastatt;vorstädtischesGebiet;Hintergrund;26;90;22;9
+DEBW021;Kehl-Süd;vorstädtischesGebiet;Hintergrund;28;137;32;19
+DEBW022;Kehl-Hafen;vorstädtischesGebiet;Industrie;28;123;29;18
+DEBW023;Weil am Rhein;vorstädtischesGebiet;Hintergrund;24;105;12;8
+DEBW024;Ludwigsburg;vorstädtischesGebiet;Hintergrund;26;88;22;15
+DEBW025;Esslingen;städtischesGebiet;Hintergrund;31;89;42;25
+DEBW026;Plochingen;vorstädtischesGebiet;Hintergrund;26;70;24;13
+DEBW027;Reutlingen;städtischesGebiet;Hintergrund;23;74;19;6
+DEBW028;Göppingen;städtischesGebiet;Hintergrund;25;78;20;9
+DEBW029;Aalen;vorstädtischesGebiet;Hintergrund;24;86;20;10
+DEBW031;Schwarzwald-Süd;ländlichregional;Hintergrund;14;50;0;0
+DEBW032;Pforzheim-Mitte;städtischesGebiet;Hintergrund;25;84;20;10
+DEBW034;Waiblingen;vorstädtischesGebiet;Hintergrund;25;70;20;8
+DEBW035;Böblingen;städtischesGebiet;Hintergrund;24;88;17;6
+DEBW037;Freudenstadt;vorstädtischesGebiet;Hintergrund;17;62;5;1
+DEBW038;Friedrichshafen;städtischesGebiet;Verkehr;26;108;27;14
+DEBW039;Villingen-Schwenningen;vorstädtischesGebiet;Hintergrund;23;84;12;4
+DEBW040;Waldshut;vorstädtischesGebiet;Verkehr;25;103;14;6
+DEBW041;Rheinfelden;städtischesGebiet;Hintergrund;27;110;28;11
+DEBW042;Bernhausen;vorstädtischesGebiet;Hintergrund;29;92;33;25
+DEBW044;Mosbach;vorstädtischesGebiet;Hintergrund;25;85;13;6
+DEBW046;Biberach;vorstädtischesGebiet;Hintergrund;26;125;25;14
+DEBW048;Ehingen;städtischesGebiet;Industrie;28;125;31;18
+DEBW050;Heidenheim;vorstädtischesGebiet;Hintergrund;24;90;18;7
+DEBW052;Konstanz;städtischesGebiet;Hintergrund;28;113;37;17
+DEBW054;Rottweil;vorstädtischesGebiet;Hintergrund;22;93;12;4
+DEBW056;Schwäbisch-Hall;vorstädtischesGebiet;Hintergrund;26;90;20;11
+DEBW059;Tauberbischofsheim;vorstädtischesGebiet;Hintergrund;22;97;10;4
+DEBW060;Tuttlingen;vorstädtischesGebiet;Hintergrund;23;85;14;6
+DEBW073;Neuenburg;vorstädtischesGebiet;Industrie;27;109;22;14
+DEBW076;Baden-Baden;vorstädtischesGebiet;Hintergrund;22;75;11;5
+DEBW080;Karlsruhe-Straße;städtischesGebiet;Verkehr;33;108;35;17
+DEBW081;Karlsruhre-Nordwest;vorstädtischesGebiet;Hintergrund;26;94;23;10
+DEBW084;Freiburg-Mitte;städtischesGebiet;Hintergrund;22;87;14;6
+DEBW087;Schwäbische Alb;ländlichregional;Hintergrund;19;61;7;1
+DEBW094;Isny;vorstädtischesGebiet;Hintergrund;21;74;11;5
+DEBW097;Freiburg-Straße;städtischesGebiet;Verkehr;28;98;23;12
+DEBW098;Mannheim-Straße;städtischesGebiet;Verkehr;36;128;57;25
+DEBW099;StuttgartMitte-Straße;städtischesGebiet;Verkehr;39;105;60;31
+DEBW103;Odenwald;ländlichesGebiet;Hintergrund;18;48;0;0
+DEBW106;Leonberg-BAB;vorstädtischesGebiet;Verkehr;26;91;22;14
+DEBW107;Tübingen;vorstädtischesGebiet;Hintergrund;25;78;22;8
+DEBW108;Karlsruhe-B10-Nord;vorstädtischesGebiet;Verkehr;28;75;15;6
+DEBW109;Karlsruhe-B10-Süd;vorstädtischesGebiet;Verkehr;29;77;30;13
+DEBY001;Ansbach, Residenzstraße;städtischesGebiet;Verkehr;41;146;97;47
+DEBY002;Arzberg, Egerstraße;städtischesGebiet;Hintergrund;39;157;77;48
+DEBY003;Aschaffenburg, Krankenhaus;städtischesGebiet;Hintergrund;33;84;32;13
+DEBY004;Kleinwallstadt, Hofstetterstraße;vorstädtischesGebiet;Hintergrund;27;84;16;5
+DEBY005;Aschaffenburg, Bussardweg;vorstädtischesGebiet;Hintergrund;24;64;9;2
+DEBY006;Augsburg, Königsplatz;städtischesGebiet;Verkehr;47;147;132;71
+DEBY007;Augsburg, Bourges-Platz;städtischesGebiet;Hintergrund;36;143;65;32
+DEBY009;Bamberg, Löwenbrücke;städtischesGebiet;Hintergrund;30;89;22;9
+DEBY010;Bayreuth, Rathaus;städtischesGebiet;Verkehr;32;117;36;20
+DEBY012;Burghausen, Marktlerstraße;vorstädtischesGebiet;Verkehr;37;141;66;37
+DEBY014;Coburg, Lossaustraße;städtischesGebiet;Verkehr;29;129;29;13
+DEBY020;Hof, Berliner Platz;städtischesGebiet;Hintergrund;35;124;64;34
+DEBY021;Ingolstadt, Rechbergstraße;städtischesGebiet;Hintergrund;34;154;49;23
+DEBY027;Main, Wasserturm;städtischesGebiet;Industrie;28;78;15;7
+DEBY028;Kelheim, Regensburgerstraße;vorstädtischesGebiet;Industrie;38;145;72;37
+DEBY030;Saal a.d. Donau, Auf dem Gries;vorstädtischesGebiet;Industrie;29;118;33;12
+DEBY031;Kempten(Allgäu), Westendstraße;städtischesGebiet;Hintergrund;29;93;29;16
+DEBY032;Kulmbach, Konrad-Adenauer-Straße;städtischesGebiet;Hintergrund;28;98;28;13
+DEBY033;Landshut, Podewilsstraße;städtischesGebiet;Verkehr;33;129;53;34
+DEBY035;Lindau(Bodensee), Holdereggenstraße;städtischesGebiet;Verkehr;37;133;77;44
+DEBY037;München, Stachus;städtischesGebiet;Verkehr;46;125;123;56
+DEBY039;München, Lothstraße;städtischesGebiet;Hintergrund;34;120;51;29
+DEBY047;Naila, SelbitzerBerg;ländlichstadtnah;Hintergrund;24;82;17;7
+DEBY049;Neustadta.d.Donau, Eining;ländlichregional;Hintergrund;26;75;9;4
+DEBY052;Neu-Ulm, Gabelsbergerstraße;städtischesGebiet;Hintergrund;39;129;71;36
+DEBY053;Nürnberg, Bahnhofstraße;städtischesGebiet;Verkehr;46;145;119;73
+DEBY054;Nürnberg, Ziegelsteinstraße;städtischesGebiet;Verkehr;35;117;50;20
+DEBY056;Fürth, Theresienstraße;städtischesGebiet;Verkehr;39;129;78;45
+DEBY058;Nürnberg, Muggenhof;städtischesGebiet;Hintergrund;31;118;34;15
+DEBY061;Passau, Kleiner Exerzierplatz;städtischesGebiet;Verkehr;46;181;121;64
+DEBY062;Regen, BodenmaiserStraße;vorstädtischesGebiet;Hintergrund;28;114;23;6
+DEBY063;Regensburg, Rathaus;städtischesGebiet;Verkehr;41;192;81;48
+DEBY067;Schwandorf, WackersdorferStraße;städtischesGebiet;Hintergrund;41;196;82;47
+DEBY068;Schweinfurt, Obertor;städtischesGebiet;Verkehr;33;143;46;20
+DEBY072;Tiefenbach, Altenschneeberg;ländlichregional;Hintergrund;23;77;8;2
+DEBY075;Würzburg, Kardinal-Faulhaber-Platz;städtischesGebiet;Verkehr;39;164;70;40
+DEBY076;Würzburg, Kardinal-Faulhaber-Platz;städtischesGebiet;Verkehr;40;156;88;41
+DEBY085;München, Luise-Kiesselbach-Platz;städtischesGebiet;Verkehr;39;135;69;42
+DEBY088;Trostberg, Schwimmbadstraße;vorstädtischesGebiet;Industrie;31;92;38;22
+DEBY093;Sulzbach-Rosenberg, Lohe;vorstädtischesGebiet;Hintergrund;37;176;73;34
+DEBY099;Augsburg, LfU;vorstädtischesGebiet;Hintergrund;30;97;37;18
+DEHB001;Bremen-Mitte;städtischesGebiet;Hintergrund;27;120;19;12
+DEHB003;Bremen-West;städtischesGebiet;Hintergrund;28;113;23;14
+DEHB004;Bremen-Nord;städtischesGebiet;Hintergrund;25;91;15;6
+DEHB005;Bremerhaven;städtischesGebiet;Hintergrund;26;114;21;9
+DEHB006;BremenVerkehr1;städtischesGebiet;Verkehr;35;125;44;22
+DEHB007;BremenVerkehr2;städtischesGebiet;Verkehr;38;123;63;32
+DEHE001;Darmstadt;städtischesGebiet;Hintergrund;27;82;13;6
+DEHE005;Frankfurt-Höchst;städtischesGebiet;Verkehr;36;112;51;22
+DEHE008;Frankfurt-Ost;städtischesGebiet;Hintergrund;34;122;43;18
+DEHE010;Gießen;städtischesGebiet;Hintergrund;30;110;35;17
+DEHE011;Hanau;städtischesGebiet;Verkehr;29;85;17;5
+DEHE014;Kassel-Nord;städtischesGebiet;Verkehr;37;155;72;40
+DEHE017;Offenbach;städtischesGebiet;Hintergrund;28;89;15;5
+DEHE018;Raunheim;städtischesGebiet;Hintergrund;27;87;15;4
+DEHE019;Viernheim;vorstädtischesGebiet;Hintergrund;20;55;3;0
+DEHE020;Wetzlar;städtischesGebiet;Verkehr;41;120;97;47
+DEHE022;Wiesbaden-Süd;städtischesGebiet;Hintergrund;27;89;19;6
+DEHE028;Fürth, Odenwald;ländlichregional;Hintergrund;19;71;3;1
+DEHE029;Dillenburg;städtischesGebiet;Hintergrund;28;75;21;7
+DEHE030;Marburg;städtischesGebiet;Hintergrund;32;128;51;20
+DEHE031;Fulda;städtischesGebiet;Verkehr;28;84;29;11
+DEHE032;Bebra;städtischesGebiet;Hintergrund;31;89;24;12
+DEHE033;Borken;vorstädtischesGebiet;Hintergrund;23;94;17;5
+DEHE034;Nidda;ländlichregional;Hintergrund;22;78;10;5
+DEHE037;Wiesbaden, Ringkirche;städtischesGebiet;Verkehr;29;109;27;10
+DEHE040;Darmstadt, Hügelstraße;städtischesGebiet;Verkehr;43;138;106;64
+DEHE041;Frankfurt-Friedb.Ldstr.;städtischesGebiet;Verkehr;36;116;70;36
+DEHE043;Riedstadt;ländlichregional;Hintergrund;27;103;18;8
+DEHE044;Limburg;städtischesGebiet;Hintergrund;29;96;22;10
+DEHE045;Michelstadt;städtischesGebiet;Hintergrund;20;68;7;4
+DEHE046;BadArolsen;ländlichesGebiet;Hintergrund;20;70;11;5
+DEHE049;Kassel-Fünffenster-Str.;städtischesGebiet;Verkehr;38;122;75;42
+DEHE051;Wasserkuppe;ländlichesGebiet;Hintergrund;14;57;3;0
+DEHH008;HHSternschanze;städtischesGebiet;Hintergrund;36;141;65;36
+DEHH015;HHVeddel;städtischesGebiet;Hintergrund;31;137;43;27
+DEHH016;HHBillbrook;städtischesGebiet;Industrie;28;123;30;20
+DEHH021;HHTatenberg;vorstädtischesGebiet;Hintergrund;24;126;24;13
+DEHH026;HHStresemannstraße(Straße);städtischesGebiet;Verkehr;34;140;45;32
+DEHH033;HHFlughafenNord;städtischesGebiet;Hintergrund;26;120;26;17
+DEHH054;HHBergedorf;städtischesGebiet;Hintergrund;26;134;23;17
+DEHH055;HHHarburg;städtischesGebiet;Hintergrund;24;120;24;15
+DEHH059;HHWilhelmsburg;städtischesGebiet;Hintergrund;27;127;31;19
+DEHH070;HHMax-Brauer-AlleeII(Straße);städtischesGebiet;Verkehr;35;135;49;28
+DEMV002;Rostock;städtischesGebiet;Verkehr;24;97;24;14
+DEMV003;Neubrandenburg;städtischesGebiet;Verkehr;28;136;35;23
+DEMV004;Gülzow;ländlichesGebiet;Hintergrund;26;135;31;26
+DEMV005;Schwerin;städtischesGebiet;Verkehr;29;112;29;19
+DEMV006;Stralsund;städtischesGebiet;Verkehr;30;133;41;29
+DEMV007;Rostock-Stuthof;vorstädtischesGebiet;Hintergrund;23;99;22;12
+DEMV012;Löcknitz;ländlichesGebiet;Hintergrund;21;95;19;13
+DEMV017;Göhlen;ländlichesGebiet;Hintergrund;25;107;29;18
+DEMV018;Zarrentin;vorstädtischesGebiet;Hintergrund;24;111;21;15
+DENI008;Braunschweig;städtischesGebiet;Verkehr;47;226;123;60
+DENI011;Braunschweig;vorstädtischesGebiet;Hintergrund;32;192;47;32
+DENI016;Oker;vorstädtischesGebiet;Industrie;25;113;27;14
+DENI019;Solling, Dassel;ländlichesabgelegen;Hintergrund;19;101;8;5
+DENI020;Wolfsburg;vorstädtischesGebiet;Industrie;31;173;43;27
+DENI028;Duderstadt;vorstädtischesGebiet;Hintergrund;29;116;39;19
+DENI029;Ostfriesland;vorstädtischesGebiet;Industrie;28;141;33;21
+DENI031;Jadebusen;vorstädtischesGebiet;Industrie;26;166;31;23
+DENI038;Osnabrück;vorstädtischesGebiet;Verkehr;37;166;74;40
+DENI041;Weserbergland;vorstädtischesGebiet;Hintergrund;32;117;45;23
+DENI042;Göttingen;vorstädtischesGebiet;Hintergrund;27;111;29;15
+DENI043;Emsland;vorstädtischesGebiet;Industrie;29;107;42;26
+DENI048;Hannover;städtischesGebiet;Verkehr;49;176;129;78
+DENI051;Wurmberg, Braunlage;ländlichesabgelegen;Hintergrund;16;89;8;5
+DENI052;Allertal;ländlichregional;Verkehr;29;167;36;25
+DENI053;Südoldenburg;ländlichregional;Hintergrund;29;137;40;22
+DENI054;Hannover, Linden;städtischesGebiet;Verkehr;34;158;54;35
+DENI058;Ostfries.Inseln;ländlichabgelegen;Hintergrund;32;152;48;25
+DENI059;Elbmündung;ländlichesregional;Hintergrund;32;179;50;31
+DENI060;Lüchow;ländlichstadtnah;Hintergrund;30;151;40;25
+DENI062;LüneburgHeide;vorstädtischesGebiet;Hintergrund;34;164;56;34
+DENI063;AltesLand;vorstädtischesGebiet;Hintergrund;31;151;43;33
+DENW002;Datteln-Hagem;vorstädtischesGebiet;Hintergrund;28;97;28;16
+DENW008;Dortmund-Eving;städtischesGebiet;Hintergrund;30;133;41;18
+DENW011;Dortmund-Hörde;vorstädtischesGebiet;Verkehr;27;105;31;16
+DENW013;Schwerte;städtischesGebiet;Hintergrund;28;83;30;15
+DENW021;Bottrop-Welheim;städtischesGebiet;Industrie;34;129;58;28
+DENW022;Gelsenkirchen-Bismarck;vorstädtischesGebiet;Hintergrund;32;110;50;28
+DENW024;Essen-Vogelheim;vorstädtischesGebiet;Hintergrund;34;120;56;28
+DENW028;Essen-Schuir(LUA);vorstädtischesGebiet;Hintergrund;26;76;17;6
+DENW034;Duisburg, Walsum;städtischesGebiet;Industrie;31;101;44;21
+DENW037;Duisburg, Meiderich;vorstädtischesGebiet;Verkehr;32;112;47;24
+DENW038;Mülheim, Styrum;städtischesGebiet;Hintergrund;32;96;42;27
+DENW042;Krefeld-Linn;städtischesGebiet;Hintergrund;28;84;30;9
+DENW043;Essen-OstSteelerStr.;städtischesGebiet;Verkehr;31;79;36;14
+DENW048;Düsseldorf-Reisholz;vorstädtischesGebiet;Hintergrund;29;77;22;8
+DENW050;Dormagen-Horrem;vorstädtischesGebiet;Hintergrund;26;101;18;9
+DENW053;Köln-Chorweiler;vorstädtischesGebiet;Hintergrund;28;81;25;11
+DENW058;Hürth;vorstädtischesGebiet;Industrie;28;77;26;13
+DENW059;Köln-Rodenkirchen;vorstädtischesGebiet;Hintergrund;25;74;15;3
+DENW062;Bonn-Auerberg;vorstädtischesGebiet;Hintergrund;27;74;19;6
+DENW064;Eifel(Simmerath);ländlichregional;Hintergrund;18;62;7;1
+DENW066;Nettetal-Kaldenkirchen;ländlichstadtnah;Verkehr;29;84;37;21
+DENW067;Bielefeld-Ost;städtischesGebiet;Hintergrund;27;88;31;16
+DENW072;DüsseldorfMörsenbroich;städtischesGebiet;Verkehr;31;79;29;14
+DENW077;HagenEmilienplatz;städtischesGebiet;Verkehr;31;68;33;9
+DENW080;Solingen-Wald;vorstädtischesGebiet;Hintergrund;23;65;8;4
+DENW081;Borken-Gemen;ländlichstadtnah;Hintergrund;28;103;34;12
+DENW082;DüsseldorfCorneliusstr.;städtischesGebiet;Verkehr;34;98;39;15
+DENW094;Aachen-Burtscheid;städtischesGebiet;Hintergrund;21;63;5;2
+DENW095;Münster-Geist;städtischesGebiet;Hintergrund;26;114;28;9
+DENW096;Mönchengladbach-Rheydt;vorstädtischesGebiet;Hintergrund;27;82;34;12
+DENW097;Wuppertal, Fr. E. Allee;städtischesGebiet;Verkehr;32;78;34;11
+DENW098;Münster, Friesenring;städtischesGebiet;Verkehr;27;118;22;12
+DENW099;Aachen, Kaiserplatz;städtischesGebiet;Verkehr;32;84;42;16
+DENW100;Mönchengladbach, Düsseldorferstraße;städtischesGebiet;Verkehr;28;81;36;11
+DENW101;Dortmund, Steinstraße;städtischesGebiet;Verkehr;32;98;41;25
+DENW102;Duisburg, Bruckhausen;städtischesGebiet;Verkehr;45;151;93;55
+DENW112;Duisburg, Kardinal-Galen-Str.;städtischesGebiet;Verkehr;35;115;61;34
+DENW114;Wuppertal, Langerfeld;städtischesGebiet;Hintergrund;25;67;14;5
+DENW116;Krefeld, Hafen;vorstädtischesGebiet;Industrie;43;136;107;70
+DENW133;Hagen, Kardinal-Galen-Ring;städtischesGebiet;Verkehr;40;101;86;44
+DERP001;Ludwigshafen, Oppau;städtischesGebiet;Hintergrund;28;113;29;13
+DERP002;Ludwigshafen, Mitte;städtischesGebiet;Hintergrund;31;137;39;17
+DERP003;Ludwigshafen, Mundenheim;städtischesGebiet;Hintergrund;32;133;52;27
+DERP007;Mainz-Mombach;städtischesGebiet;Hintergrund;26;103;20;9
+DERP008;Mainz-Goetheplatz;städtischesGebiet;Hintergrund;29;123;30;9
+DERP009;Mainz-Zitadelle;städtischesGebiet;Verkehr;31;129;43;14
+DERP010;Mainz-Parcusstraße;städtischesGebiet;Verkehr;38;145;77;39
+DERP013;Westpfalz-Waldmohr;ländlichesGebiet;Hintergrund;21;72;9;3
+DERP014;Hunsrück-Leisel;ländlichesGebiet;Hintergrund;18;72;7;2
+DERP015;WesteifelWascheid;ländlichesGebiet;Hintergrund;17;56;3;0
+DERP016;Westerwald-Herdorf;ländlichesGebiet;Hintergrund;20;69;5;3
+DERP017;Pfälzerwald-Hortenkopf;ländlichesGebiet;Hintergrund;17;58;1;0
+DERP018;Speyer-St.-Guido-Stifts-Platz;städtischesGebiet;Verkehr;31;123;39;17
+DERP019;Kaiserslautern-Rathausplatz;städtischesGebiet;Hintergrund;25;75;12;6
+DERP020;Trier-Ostallee;städtischesGebiet;Verkehr;32;78;44;11
+DERP021;Neuwied-Hafenstraße;vorstädtischesGebiet;Hintergrund;28;91;29;13
+DERP022;BadKreuznach-BosenheimerStraße;städtischesGebiet;Hintergrund;27;108;27;9
+DERP023;Worms-Hagenstraße;städtischesGebiet;Hintergrund;33;125;47;21
+DERP024;Koblenz-Friedrich-Ebert-Ring;städtischesGebiet;Verkehr;28;93;23;12
+DERP025;Wörth-Marktplatz;städtischesGebiet;Hintergrund;26;101;21;9
+DERP028;Westerwald-Neuhäusel;ländlichesGebiet;Hintergrund;17;70;2;2
+DERP029;Koblenz-Zentralplatz;städtischesGebiet;Verkehr;30;99;37;15
+DERP032;Neuwied-HeddesdorferStraße;städtischesGebiet;Hintergrund;34;110;57;28
+DERP036;TrierKaiserstraße;städtischesGebiet;Verkehr;33;86;48;17
+DERP041;Ludwigshafen, Heinigstraße;städtischesGebiet;Verkehr;41;160;91;55
+DERP042;PirmasensSchäferstr.;städtischesGebiet;Verkehr;26;93;25;15
+DESH001;Altendeich;ländlichabgelegen;Hintergrund;26;125;29;17
+DESH008;Bornhöved;ländlichesGebiet;Hintergrund;23;121;26;15
+DESH010;Lübeck-LindenplatzVerk.;städtischesGebiet;Verkehr;29;131;36;24
+DESH011;Brunsbüttel;ländlichesGebiet;Industrie;26;123;31;18
+DESH015;Itzehoe;vorstädtischesGebiet;Hintergrund;25;123;28;16
+DESH019;Kiel-WestringVerk.;städtischesGebiet;Verkehr;27;174;32;24
+DESH021;KielSchauenburgerStr.;vorstädtischesGebiet;Hintergrund;25;133;30;17
+DESH022;Flensburg;städtischesGebiet;Verkehr;29;127;35;28
+DESH023;Lübeck-St.Jürgen;vorstädtischesGebiet;Hintergrund;28;140;31;21
+DESH025;ItzehoeLindenstr.;städtischesGebiet;Verkehr;32;135;45;29
+DESL003;DillingenCity;städtischesGebiet;Hintergrund;27;77;24;8
+DESL010;Saarbrücken-Burbach;städtischesGebiet;Hintergrund;22;60;6;0
+DESL012;Saarbrücken-City;städtischesGebiet;Hintergrund;21;64;7;3
+DESL013;Saarlouis-Fraulautern;vorstädtischesGebiet;Hintergrund;25;64;12;2
+DESL017;Völklingen-CityStadionstr.;städtischesGebiet;Hintergrund;26;61;11;1
+DESL019;Biringen;ländlichregional;Hintergrund;18;49;0;0
+DESN004;Bautzen;städtischesGebiet;Hintergrund;29;170;34;23
+DESN006;Borna;städtischesGebiet;Verkehr;30;108;36;20
+DESN011;Chemnitz-Mitte;städtischesGebiet;Hintergrund;32;100;55;33
+DESN012;Delitzsch;städtischesGebiet;Hintergrund;33;130;46;28
+DESN014;Dresden-Mitte;städtischesGebiet;Hintergrund;37;133;68;34
+DESN017;Freiberg;städtischesGebiet;Verkehr;27;195;28;13
+DESN019;Glauchau;vorstädtischesGebiet;Verkehr;32;110;53;33
+DESN020;Görlitz;städtischesGebiet;Verkehr;34;176;50;32
+DESN024;Klingenthal;städtischesGebiet;Hintergrund;27;71;20;5
+DESN025;Leipzig-Mitte;städtischesGebiet;Verkehr;37;157;64;37
+DESN045;Zittau-Ost;vorstädtischesGebiet;Hintergrund;32;175;47;35
+DESN047;Zwickau;städtischesGebiet;Verkehr;28;133;35;23
+DESN049;Carlsfeld;ländlichregional;Hintergrund;16;63;2;1
+DESN050;Hoyerswerda;städtischesGebiet;Hintergrund;30;146;37;20
+DESN051;Radebeul-Wahnsdorf;ländlichstadtnah;Hintergrund;25;124;26;15
+DESN059;Leipzig-West;städtischesGebiet;Hintergrund;27;129;24;16
+DESN060;Chemnitz-Nord;städtischesGebiet;Verkehr;28;101;34;19
+DESN061;Dresden-Nord;städtischesGebiet;Verkehr;36;155;53;33
+DESN074;Schwartenberg;ländlichregional;Hintergrund;17;111;10;3
+DESN075;Plauen-Süd;städtischesGebiet;Verkehr;31;99;37;18
+DESN076;Collmberg;ländlichregional;Hintergrund;23;100;17;11
+DESN077;Leipzig, LütznerStr.;städtischesGebiet;Verkehr;41;179;87;51
+DEST002;Burg;vorstädtischesGebiet;Hintergrund;30;187;39;25
+DEST006;Magdeburg, Zentrum-Ost;städtischesGebiet;Hintergrund;31;139;38;25
+DEST011;Wernigerode;städtischesGebiet;Hintergrund;25;103;18;7
+DEST014;Bitterfeld;städtischesGebiet;Hintergrund;29;127;32;18
+DEST015;Greppin;vorstädtischesGebiet;Industrie;30;117;38;20
+DEST028;Zeitz;städtischesGebiet;Hintergrund;27;124;31;15
+DEST029;Bernburg;vorstädtischesGebiet;Verkehr;34;120;52;25
+DEST057;Magdeburg, Südost;städtischesGebiet;Verkehr;29;155;38;22
+DEST063;Stendal;städtischesGebiet;Hintergrund;30;121;40;22
+DEST066;Wittenberg;städtischesGebiet;Hintergrund;29;149;35;22
+DEST068;Pouch;ländlichstadtnah;Industrie;30;133;36;17
+DEST072;Halle, Ost;vorstädtischesGebiet;Hintergrund;29;145;39;19
+DEST075;Halle;städtischesGebiet;Verkehr;40;207;81;45
+DEST076;Magdeburg;städtischesGebiet;Verkehr;36;163;56;33
+DEST080;Schkopau;vorstädtischesGebiet;Industrie;27;158;27;15
+DEST081;Weißenfels;städtischesGebiet;Verkehr;27;119;27;15
+DEST089;Zartau, Waldmessstation;ländlichregional;Hintergrund;22;120;21;14
+DEST090;Leuna;vorstädtischesGebiet;Industrie;26;138;25;11
+DEST091;Dessau, Albrechtsplatz;städtischesGebiet;Verkehr;31;119;45;28
+DEST092;Wittenberg;städtischesGebiet;Verkehr;37;159;63;29
+DEST095;Aschersleben;städtischesGebiet;Verkehr;40;178;77;49
+DEST097;HettstedtIndustrie;vorstädtischesGebiet;Industrie;28;163;42;19
+DETH005;Saalfeld;städtischesGebiet;Hintergrund;30;91;41;22
+DETH007;Rudolstadt;städtischesGebiet;Hintergrund;27;92;29;13
+DETH009;GeraFriedericistr.;städtischesGebiet;Hintergrund;31;122;42;24
+DETH011;AltenburgTheaterplatz;städtischesGebiet;Verkehr;27;106;33;23
+DETH013;Eisenach;städtischesGebiet;Hintergrund;28;99;28;20
+DETH016;ArnstadtAlterFriedhof;städtischesGebiet;Hintergrund;24;69;11;4
+DETH018;Nordhausen;städtischesGebiet;Verkehr;26;92;27;12
+DETH020;ErfurtKrämpferstr.;städtischesGebiet;Verkehr;29;94;37;21
+DETH021;MühlhausenBrunnenstr.;städtischesGebiet;Hintergrund;30;88;39;22
+DETH024;Ilmenau;städtischesGebiet;Hintergrund;24;100;13;2
+DETH025;Meiningen;städtischesGebiet;Hintergrund;25;77;20;6
+DETH026;Dreißigacker;ländlichregional;Hintergrund;22;85;10;5
+DETH027;Neuhaus;ländlichesGebiet;Hintergrund;9;27;0;0
+DETH032;Gotha;städtischesGebiet;Verkehr;28;105;33;15
+DETH036;GreizMollbergstr.;städtischesGebiet;Hintergrund;27;95;31;14
+DETH037;JenaSchillergäßchen;städtischesGebiet;Hintergrund;33;101;4;3
+DETH039;WeimarSophienstiftsplatz;städtischesGebiet;Verkehr;31;100;43;25
+DETH041;JenaDammstr.;städtischesGebiet;Hintergrund;29;105;31;19
+DETH043;ErfurtBergstr.;städtischesGebiet;Verkehr;40;130;94;49
+DETH060;Zella-Mehlis;städtischesGebiet;Hintergrund;23;77;8;2
+DETH061;Hummelshain;ländlichHintergrund;Hintergrund;18;83;7;1
+DETH072;Suhl;städtischesGebiet;Verkehr;26;77;12;5
+DETH073;Dorndorf-Steudnitz;ländlichregional;Industrie;27;83;22;14
+DETH074;JenaLobedaA4;städtischesGebiet;Verkehr;28;94;21;11
+DETH075;JenaWestbahnhofstr.;städtischesGebiet;Verkehr;37;123;61;33
+DEUB001;Westerland;ländlichesGebiet;Hintergrund;23;100;25;17
+DEUB002;Deuselbach;ländlichesGebiet;Hintergrund;19;57;5;0
+DEUB003;Brotjacklriegel;ländlichesGebiet;Hintergrund;14;68;3;2
+DEUB004;Schauinsland;ländlichregional;Hintergrund;13;47;0;0
+DEUB005;Waldhof;ländlichesGebiet;Hintergrund;22;123;20;14
+DEUB007;Bassum;ländlichesGebiet;Hintergrund;23;107;17;9
+DEUB016;Gittrup;ländlichesGebiet;Verkehr;21;62;3;2
+DEUB017;Regnitzlosau;ländlichesGebiet;Hintergrund;17;71;8;3
+DEUB026;Ueckermünde;ländlichesGebiet;Hintergrund;19;90;15;9
+DEUB028;Zingst;ländlichesGebiet;Hintergrund;20;109;18;12
+DEUB029;Schmücke;ländlichesGebiet;Hintergrund;13;63;2;1
+DEUB030;Neuglobsow;ländlichregional;Hintergrund;18;85;16;10
+DEUB031;Lückendorf;ländlichesGebiet;Hintergrund;20;96;14;7
+DEUB032;Leinefelde;ländlichesGebiet;Hintergrund;24;78;13;4
+DEUB033;Melpitz;ländlichesGebiet;Hintergrund;23;113;16;12
+DEUB035;Lehnmühle;ländlichesGebiet;Hintergrund;20;71;8;2
+DEUB038;Aukrug;ländlichesGebiet;Hintergrund;27;138;31;20
+DEUB039;Falkenberg;ländlichesGebiet;Hintergrund;20;102;18;13
+DEUB040;Schorfheide;ländlichesGebiet;Hintergrund;19;80;18;14
+DEUB041;Raisting;ländlichesGebiet;Hintergrund;17;62;1;1
+DEUB042;Öhringen;ländlichesGebiet;Hintergrund;26;77;11;6
