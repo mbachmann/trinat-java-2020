@@ -1,0 +1,214 @@
+﻿DEBB021;Potsdam-Zentrum;städtisches Gebiet;Hintergrund;27;111;29;19
+DEBB024;Senftenberg ;städtisches Gebiet;Hintergrund;29;132;29;18
+DEBB026;Spremberg-Süd;städtisches Gebiet;Industrie;25;132;19;15
+DEBB029;Schwedt (Oder) ;vorstädtisches Gebiet;Hintergrund;25;117;29;21
+DEBB030;Premnitz ;vorstädtisches Gebiet;Hintergrund;24;107;20;14
+DEBB031;Königs Wusterhausen;vorstädtisches Gebiet;Hintergrund;26;99;22;16
+DEBB032;Eisenhüttenstadt  ;vorstädtisches Gebiet;Industrie;30;127;36;25
+DEBB042;Frankfurt (Oder) ;vorstädtisches Gebiet;Hintergrund;27;108;30;23
+DEBB043;Luckau ;vorstädtisches Gebiet;Hintergrund;28;125;27;18
+DEBB044;Cottbus Bahnhofstr ;städtisches Gebiet;Verkehr;42;177;88;44
+DEBB045;Frankfurt (Oder) Leipziger Str ;städtisches Gebiet;Verkehr;41;154;76;40
+DEBB048;Neuruppin ;vorstädtisches Gebiet;Hintergrund;23;85;21;13
+DEBB049;Brandenburg Neuendorfer Str;städtisches Gebiet;Verkehr;37;194;61;35
+DEBB052;Potsdam Michendorfer Chaussee;ländlich stadtnah;Hintergrund;24;116;23;15
+DEBB053;Hasenholz ;ländlich regional;Hintergrund;21;85;17;12
+DEBB054;Potsdam Zeppelinstr ;ländlich regional;Hintergrund ;27;97;17;10
+DEBB055;Brandenburg Havel ;vorstädtisches Gebiet;Hintergrund;22;104;14;10
+DEBB063;Wittenberge;vorstädtisches Gebiet;Hintergrund;21;91;16;12
+DEBB064;Cottbus;städtisches Gebiet;Hintergrund;27;149;30;24
+DEBB068;Bernau Lohmühlenstr ;städtisches Gebiet;Verkehr;35;134;54;37
+DEBE010;B Wedding Amrumer Str ;städtisches Gebiet;Verkehr;31;130;43;26
+DEBE014;B Charlottenburg Stadtautobahn ;städtisches Gebiet;Verkehr;47;171;114;65
+DEBE018;B Schöneberg-Belziger Straße ;städtisches Gebiet;Hintergrund;30;131;39;27
+DEBE027;B Marienfelde-Schichauweg;ländlich stadtnah;Industrie;27;117;29;21
+DEBE032;B Grunewald;ländlich stadtnah;Hintergrund;26;125;28;23
+DEBE034;B Neukölln-Nansenstraße ;städtisches Gebiet;Hintergrund;31;125;42;27
+DEBE044;B Mitte-Parochialstr ;städtisches Gebiet;Verkehr;37;155;68;41
+DEBE045;B Pankow-Blankenfelder Str ;vorstädtisches Gebiet;Verkehr;36;135;69;43
+DEBE051;B Buch ;vorstädtisches Gebiet;Hintergrund;28;127;36;28
+DEBE056;B Friedrichshagen;ländlich stadtnah;Hintergrund;26;108;25;20
+DEBE061;B Steglitz-Schildhornstr ;städtisches Gebiet;Verkehr;41;157;80;45
+DEBE062;B Frohnau Funktur ;ländlich stadtnah;Hintergrund;28;114;32;25
+DEBE065;B Friedrichshain-Frankfurter Allee  ;städtisches Gebiet;Verkehr;43;152;94;54
+DEBE068;B Mitte Brückenstraße;städtisches Gebiet ;Hintergrund;33;126;36;25
+DEBB021;Potsdam-Zentrum;städtisches Gebiet;Hintergrund;27;111;29;19
+DEBB024;Senftenberg ;städtisches Gebiet;Hintergrund;29;132;29;18
+DEBB026;Spremberg-Süd;städtisches Gebiet;Industrie;25;132;19;15
+DEBB029;Schwedt (Oder) ;vorstädtisches Gebiet;Hintergrund;25;117;29;21
+DEBB030;Premnitz ;vorstädtisches Gebiet;Hintergrund;24;107;20;14
+DEBB031;Königs Wusterhausen;vorstädtisches Gebiet;Hintergrund;26;99;22;16
+DEBB032;Eisenhüttenstadt  ;vorstädtisches Gebiet;Industrie;30;127;36;25
+DEBB042;Frankfurt (Oder) ;vorstädtisches Gebiet;Hintergrund;27;108;30;23
+DEBB043;Luckau ;vorstädtisches Gebiet;Hintergrund;28;125;27;18
+DEBB044;Cottbus Bahnhofstr ;städtisches Gebiet;Verkehr;42;177;88;44
+DEBB045;Frankfurt (Oder) Leipziger Str ;städtisches Gebiet;Verkehr;41;154;76;40
+DEBB048;Neuruppin ;vorstädtisches Gebiet;Hintergrund;23;85;21;13
+DEBB049;Brandenburg Neuendorfer Str;städtisches Gebiet;Verkehr;37;194;61;35
+DEBB052;Potsdam Michendorfer Chaussee;ländlich stadtnah;Hintergrund;24;116;23;15
+DEBB053;Hasenholz ;ländlich regional;Hintergrund;21;85;17;12
+DEBB054;Potsdam Zeppelinstr ;ländlich regional;Hintergrund ;27;97;17;10
+DEBB055;Brandenburg Havel ;vorstädtisches Gebiet;Hintergrund;22;104;14;10
+DEBB063;Wittenberge;vorstädtisches Gebiet;Hintergrund;21;91;16;12
+DEBB064;Cottbus;städtisches Gebiet;Hintergrund;27;149;30;24
+DEBB068;Bernau Lohmühlenstr ;städtisches Gebiet;Verkehr;35;134;54;37
+DEBE010;B Wedding Amrumer Str ;städtisches Gebiet;Verkehr;31;130;43;26
+DEBE014;B Charlottenburg Stadtautobahn ;städtisches Gebiet;Verkehr;47;171;114;65
+DEBE018;B Schöneberg-Belziger Straße ;städtisches Gebiet;Hintergrund;30;131;39;27
+DEBE027;B Marienfelde-Schichauweg;ländlich stadtnah;Industrie;27;117;29;21
+DEBE032;B Grunewald;ländlich stadtnah;Hintergrund;26;125;28;23
+DEBE034;B Neukölln-Nansenstraße ;städtisches Gebiet;Hintergrund;31;125;42;27
+DEBE044;B Mitte-Parochialstr ;städtisches Gebiet;Verkehr;37;155;68;41
+DEBE045;B Pankow-Blankenfelder Str ;vorstädtisches Gebiet;Verkehr;36;135;69;43
+DEBE051;B Buch ;vorstädtisches Gebiet;Hintergrund;28;127;36;28
+DEBE056;B Friedrichshagen;ländlich stadtnah;Hintergrund;26;108;25;20
+DEBE061;B Steglitz-Schildhornstr ;städtisches Gebiet;Verkehr;41;157;80;45
+DEBE062;B Frohnau Funktur ;ländlich stadtnah;Hintergrund;28;114;32;25
+DEBE065;B Friedrichshain-Frankfurter Allee  ;städtisches Gebiet;Verkehr;43;152;94;54
+DEBE068;B Mitte Brückenstraße;städtisches Gebiet ;Hintergrund;33;126;36;25
+DEBW001;Karlsruhe-Mitte;städtisches Gebiet;Verkehr;29;104;34;16
+DEBW004;Eggenstein ;ländlich stadtnah;Hintergrund;26;87;20;9
+DEBW005;Mannheim-Nord ;vorstädtisches Gebiet;Industrie;28;101;24;10
+DEBW006;Mannheim-Mitte ;städtisches Gebiet;Hintergrund;28;114;28;10
+DEBW007;Mannheim-Süd ;städtisches Gebiet;Hintergrund;28;100;23;9
+DEBW009;Heidelberg ;städtisches Gebiet;Verkehr;25;83;11;2
+DEBW010;Wiesloch ;vorstädtisches Gebiet;Hintergrund;24;74;12;4
+DEBW011;Stuttgart-Zuffenhausen ;städtisches Gebiet;Verkehr;31;98;40;25
+DEBE032;B Grunewald;ländlich stadtnah;Hintergrund;26;125;28;23
+DEBE034;B Neukölln-Nansenstraße ;städtisches Gebiet;Hintergrund;31;125;42;27
+DEBE044;B Mitte-Parochialstr ;städtisches Gebiet;Verkehr;37;155;68;41
+DEBE045;B Pankow-Blankenfelder Str ;vorstädtisches Gebiet;Verkehr;36;135;69;43
+DEBE051;B Buch ;vorstädtisches Gebiet;Hintergrund;28;127;36;28
+DEBE056;B Friedrichshagen;ländlich stadtnah;Hintergrund;26;108;25;20
+DEBE061;B Steglitz-Schildhornstr ;städtisches Gebiet;Verkehr;41;157;80;45
+DEBE062;B Frohnau Funktur ;ländlich stadtnah;Hintergrund;28;114;32;25
+DEBE065;B Friedrichshain-Frankfurter Allee  ;städtisches Gebiet;Verkehr;43;152;94;54
+DEBE068;B Mitte Brückenstraße;städtisches Gebiet ;Hintergrund;33;126;36;25
+DEBW001;Karlsruhe-Mitte;städtisches Gebiet;Verkehr;29;104;34;16
+DEBW004;Eggenstein ;ländlich stadtnah;Hintergrund;26;87;20;9
+DEBW005;Mannheim-Nord ;vorstädtisches Gebiet;Industrie;28;101;24;10
+DEBW006;Mannheim-Mitte ;städtisches Gebiet;Hintergrund;28;114;28;10
+DEBW007;Mannheim-Süd ;städtisches Gebiet;Hintergrund;28;100;23;9
+DEBW009;Heidelberg ;städtisches Gebiet;Verkehr;25;83;11;2
+DEBW010;Wiesloch ;vorstädtisches Gebiet;Hintergrund;24;74;12;4
+DEBW011;Stuttgart-Zuffenhausen ;städtisches Gebiet;Verkehr;31;98;40;25
+DEBB021;Potsdam-Zentrum;städtisches Gebiet;Hintergrund;27;111;29;19
+DEBB024;Senftenberg ;städtisches Gebiet;Hintergrund;29;132;29;18
+DEBB026;Spremberg-Süd;städtisches Gebiet;Industrie;25;132;19;15
+DEBB029;Schwedt (Oder) ;vorstädtisches Gebiet;Hintergrund;25;117;29;21
+DEBB030;Premnitz ;vorstädtisches Gebiet;Hintergrund;24;107;20;14
+DEBB031;Königs Wusterhausen;vorstädtisches Gebiet;Hintergrund;26;99;22;16
+DEBB032;Eisenhüttenstadt  ;vorstädtisches Gebiet;Industrie;30;127;36;25
+DEBB042;Frankfurt (Oder) ;vorstädtisches Gebiet;Hintergrund;27;108;30;23
+DEBB043;Luckau ;vorstädtisches Gebiet;Hintergrund;28;125;27;18
+DEBB044;Cottbus Bahnhofstr ;städtisches Gebiet;Verkehr;42;177;88;44
+DEBB045;Frankfurt (Oder) Leipziger Str ;städtisches Gebiet;Verkehr;41;154;76;40
+DEBB048;Neuruppin ;vorstädtisches Gebiet;Hintergrund;23;85;21;13
+DEBB049;Brandenburg Neuendorfer Str;städtisches Gebiet;Verkehr;37;194;61;35
+DEBB052;Potsdam Michendorfer Chaussee;ländlich stadtnah;Hintergrund;24;116;23;15
+DEBB053;Hasenholz ;ländlich regional;Hintergrund;21;85;17;12
+DEBB054;Potsdam Zeppelinstr ;ländlich regional;Hintergrund ;27;97;17;10
+DEBB055;Brandenburg Havel ;vorstädtisches Gebiet;Hintergrund;22;104;14;10
+DEBB063;Wittenberge;vorstädtisches Gebiet;Hintergrund;21;91;16;12
+DEBB064;Cottbus;städtisches Gebiet;Hintergrund;27;149;30;24
+DEBB068;Bernau Lohmühlenstr ;städtisches Gebiet;Verkehr;35;134;54;37
+DEBE010;B Wedding Amrumer Str ;städtisches Gebiet;Verkehr;31;130;43;26
+DEBE014;B Charlottenburg Stadtautobahn ;städtisches Gebiet;Verkehr;47;171;114;65
+DEBE018;B Schöneberg-Belziger Straße ;städtisches Gebiet;Hintergrund;30;131;39;27
+DEBE027;B Marienfelde-Schichauweg;ländlich stadtnah;Industrie;27;117;29;21
+DEBE032;B Grunewald;ländlich stadtnah;Hintergrund;26;125;28;23
+DEBE034;B Neukölln-Nansenstraße ;städtisches Gebiet;Hintergrund;31;125;42;27
+DEBE044;B Mitte-Parochialstr ;städtisches Gebiet;Verkehr;37;155;68;41
+DEBE045;B Pankow-Blankenfelder Str ;vorstädtisches Gebiet;Verkehr;36;135;69;43
+DEBE051;B Buch ;vorstädtisches Gebiet;Hintergrund;28;127;36;28
+DEBE056;B Friedrichshagen;ländlich stadtnah;Hintergrund;26;108;25;20
+DEBE061;B Steglitz-Schildhornstr ;städtisches Gebiet;Verkehr;41;157;80;45
+DEBE062;B Frohnau Funktur ;ländlich stadtnah;Hintergrund;28;114;32;25
+DEBE065;B Friedrichshain-Frankfurter Allee  ;städtisches Gebiet;Verkehr;43;152;94;54
+DEBE068;B Mitte Brückenstraße;städtisches Gebiet ;Hintergrund;33;126;36;25
+DEBW001;Karlsruhe-Mitte;städtisches Gebiet;Verkehr;29;104;34;16
+DEBW004;Eggenstein ;ländlich stadtnah;Hintergrund;26;87;20;9
+DEBW005;Mannheim-Nord ;vorstädtisches Gebiet;Industrie;28;101;24;10
+DEBW006;Mannheim-Mitte ;städtisches Gebiet;Hintergrund;28;114;28;10
+DEBW007;Mannheim-Süd ;städtisches Gebiet;Hintergrund;28;100;23;9
+DEBW009;Heidelberg ;städtisches Gebiet;Verkehr;25;83;11;2
+DEBW010;Wiesloch ;vorstädtisches Gebiet;Hintergrund;24;74;12;4
+DEBW011;Stuttgart-Zuffenhausen ;städtisches Gebiet;Verkehr;31;98;40;25
+DEBE032;B Grunewald;ländlich stadtnah;Hintergrund;26;125;28;23
+DEBE034;B Neukölln-Nansenstraße ;städtisches Gebiet;Hintergrund;31;125;42;27
+DEBE044;B Mitte-Parochialstr ;städtisches Gebiet;Verkehr;37;155;68;41
+DEBE045;B Pankow-Blankenfelder Str ;vorstädtisches Gebiet;Verkehr;36;135;69;43
+DEBE051;B Buch ;vorstädtisches Gebiet;Hintergrund;28;127;36;28
+DEBE056;B Friedrichshagen;ländlich stadtnah;Hintergrund;26;108;25;20
+DEBE061;B Steglitz-Schildhornstr ;städtisches Gebiet;Verkehr;41;157;80;45
+DEBE062;B Frohnau Funktur ;ländlich stadtnah;Hintergrund;28;114;32;25
+DEBE065;B Friedrichshain-Frankfurter Allee  ;städtisches Gebiet;Verkehr;43;152;94;54
+DEBE068;B Mitte Brückenstraße;städtisches Gebiet ;Hintergrund;33;126;36;25
+DEBW001;Karlsruhe-Mitte;städtisches Gebiet;Verkehr;29;104;34;16
+DEBW004;Eggenstein ;ländlich stadtnah;Hintergrund;26;87;20;9
+DEBW005;Mannheim-Nord ;vorstädtisches Gebiet;Industrie;28;101;24;10
+DEBW006;Mannheim-Mitte ;städtisches Gebiet;Hintergrund;28;114;28;10
+DEBW007;Mannheim-Süd ;städtisches Gebiet;Hintergrund;28;100;23;9
+DEBW009;Heidelberg ;städtisches Gebiet;Verkehr;25;83;11;2
+DEBW010;Wiesloch ;vorstädtisches Gebiet;Hintergrund;24;74;12;4
+DEBW011;Stuttgart-Zuffenhausen ;städtisches Gebiet;Verkehr;31;98;40;25
+DEBB021;Potsdam-Zentrum;städtisches Gebiet;Hintergrund;27;111;29;19
+DEBB024;Senftenberg ;städtisches Gebiet;Hintergrund;29;132;29;18
+DEBB026;Spremberg-Süd;städtisches Gebiet;Industrie;25;132;19;15
+DEBB029;Schwedt (Oder) ;vorstädtisches Gebiet;Hintergrund;25;117;29;21
+DEBB030;Premnitz ;vorstädtisches Gebiet;Hintergrund;24;107;20;14
+DEBB031;Königs Wusterhausen;vorstädtisches Gebiet;Hintergrund;26;99;22;16
+DEBB032;Eisenhüttenstadt  ;vorstädtisches Gebiet;Industrie;30;127;36;25
+DEBB042;Frankfurt (Oder) ;vorstädtisches Gebiet;Hintergrund;27;108;30;23
+DEBB043;Luckau ;vorstädtisches Gebiet;Hintergrund;28;125;27;18
+DEBB044;Cottbus Bahnhofstr ;städtisches Gebiet;Verkehr;42;177;88;44
+DEBB045;Frankfurt (Oder) Leipziger Str ;städtisches Gebiet;Verkehr;41;154;76;40
+DEBB048;Neuruppin ;vorstädtisches Gebiet;Hintergrund;23;85;21;13
+DEBB049;Brandenburg Neuendorfer Str;städtisches Gebiet;Verkehr;37;194;61;35
+DEBB052;Potsdam Michendorfer Chaussee;ländlich stadtnah;Hintergrund;24;116;23;15
+DEBB053;Hasenholz ;ländlich regional;Hintergrund;21;85;17;12
+DEBB054;Potsdam Zeppelinstr ;ländlich regional;Hintergrund ;27;97;17;10
+DEBB055;Brandenburg Havel ;vorstädtisches Gebiet;Hintergrund;22;104;14;10
+DEBB063;Wittenberge;vorstädtisches Gebiet;Hintergrund;21;91;16;12
+DEBB064;Cottbus;städtisches Gebiet;Hintergrund;27;149;30;24
+DEBB068;Bernau Lohmühlenstr ;städtisches Gebiet;Verkehr;35;134;54;37
+DEBE010;B Wedding Amrumer Str ;städtisches Gebiet;Verkehr;31;130;43;26
+DEBE014;B Charlottenburg Stadtautobahn ;städtisches Gebiet;Verkehr;47;171;114;65
+DEBE018;B Schöneberg-Belziger Straße ;städtisches Gebiet;Hintergrund;30;131;39;27
+DEBE027;B Marienfelde-Schichauweg;ländlich stadtnah;Industrie;27;117;29;21
+DEBE032;B Grunewald;ländlich stadtnah;Hintergrund;26;125;28;23
+DEBE034;B Neukölln-Nansenstraße ;städtisches Gebiet;Hintergrund;31;125;42;27
+DEBE044;B Mitte-Parochialstr ;städtisches Gebiet;Verkehr;37;155;68;41
+DEBE045;B Pankow-Blankenfelder Str ;vorstädtisches Gebiet;Verkehr;36;135;69;43
+DEBE051;B Buch ;vorstädtisches Gebiet;Hintergrund;28;127;36;28
+DEBE056;B Friedrichshagen;ländlich stadtnah;Hintergrund;26;108;25;20
+DEBE061;B Steglitz-Schildhornstr ;städtisches Gebiet;Verkehr;41;157;80;45
+DEBE062;B Frohnau Funktur ;ländlich stadtnah;Hintergrund;28;114;32;25
+DEBE065;B Friedrichshain-Frankfurter Allee  ;städtisches Gebiet;Verkehr;43;152;94;54
+DEBE068;B Mitte Brückenstraße;städtisches Gebiet ;Hintergrund;33;126;36;25
+DEBW001;Karlsruhe-Mitte;städtisches Gebiet;Verkehr;29;104;34;16
+DEBW004;Eggenstein ;ländlich stadtnah;Hintergrund;26;87;20;9
+DEBW005;Mannheim-Nord ;vorstädtisches Gebiet;Industrie;28;101;24;10
+DEBW006;Mannheim-Mitte ;städtisches Gebiet;Hintergrund;28;114;28;10
+DEBW007;Mannheim-Süd ;städtisches Gebiet;Hintergrund;28;100;23;9
+DEBW009;Heidelberg ;städtisches Gebiet;Verkehr;25;83;11;2
+DEBW010;Wiesloch ;vorstädtisches Gebiet;Hintergrund;24;74;12;4
+DEBW011;Stuttgart-Zuffenhausen ;städtisches Gebiet;Verkehr;31;98;40;25
+DEBE032;B Grunewald;ländlich stadtnah;Hintergrund;26;125;28;23
+DEBE034;B Neukölln-Nansenstraße ;städtisches Gebiet;Hintergrund;31;125;42;27
+DEBE044;B Mitte-Parochialstr ;städtisches Gebiet;Verkehr;37;155;68;41
+DEBE045;B Pankow-Blankenfelder Str ;vorstädtisches Gebiet;Verkehr;36;135;69;43
+DEBE051;B Buch ;vorstädtisches Gebiet;Hintergrund;28;127;36;28
+DEBE056;B Friedrichshagen;ländlich stadtnah;Hintergrund;26;108;25;20
+DEBE061;B Steglitz-Schildhornstr ;städtisches Gebiet;Verkehr;41;157;80;45
+DEBE062;B Frohnau Funktur ;ländlich stadtnah;Hintergrund;28;114;32;25
+DEBE065;B Friedrichshain-Frankfurter Allee  ;städtisches Gebiet;Verkehr;43;152;94;54
+DEBE068;B Mitte Brückenstraße;städtisches Gebiet ;Hintergrund;33;126;36;25
+DEBW001;Karlsruhe-Mitte;städtisches Gebiet;Verkehr;29;104;34;16
+DEBW004;Eggenstein ;ländlich stadtnah;Hintergrund;26;87;20;9
+DEBW005;Mannheim-Nord ;vorstädtisches Gebiet;Industrie;28;101;24;10
+DEBW006;Mannheim-Mitte ;städtisches Gebiet;Hintergrund;28;114;28;10
+DEBW007;Mannheim-Süd ;städtisches Gebiet;Hintergrund;28;100;23;9
+DEBW009;Heidelberg ;städtisches Gebiet;Verkehr;25;83;11;2
+DEBW010;Wiesloch ;vorstädtisches Gebiet;Hintergrund;24;74;12;4
+DEBW011;Stuttgart-Zuffenhausen ;städtisches Gebiet;Verkehr;31;98;40;25;
