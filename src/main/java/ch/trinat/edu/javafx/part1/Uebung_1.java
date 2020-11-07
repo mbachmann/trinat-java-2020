@@ -9,6 +9,7 @@ import javafx.stage.Stage;
 
 public class Uebung_1 extends Application {
 
+// Um dieses Programm zu Starten auf den Laucher_Uebung <Uebung_1.main(args)> eingeben
 
     public void start(Stage primaryStage) {
         Label l1 = new Label("Hallo");
