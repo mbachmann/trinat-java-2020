@@ -9,14 +9,23 @@ public class Adressbuch {
 	Vector <Person> personen = new Vector<Person>();
     
     public void addPerson(Person p) {
-		input[0]=p.name;
+    	personen.add(p);
     }
     
     public String printAll() {
-		// Ihr Code
+		String all = null;
+		for (int i = 0; i < personen.size(); i++) {
+			String printall;
+			printall = personen.get(i).toString() + "\n";
+			all = all + printall;
+		}
+    	return all;
     }
     
     public void deleteAll() {
-		// Ihr Code
+		int size = personen.size();
+		for (int i = 0; i < size ; i++) {
+			personen.remove(i);
+		}
     }
 }
