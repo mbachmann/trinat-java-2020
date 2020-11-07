@@ -13,7 +13,7 @@ public class HauptprogrammStation {
 		int i = 0;
 
 		try {
-			String fileName = "PM10_2003.2 (1).txt";
+			String fileName = "src\\main\\java\\ch\\trinat\\edu\\etutorial\\p03\\oo5\\PM10_2003.2 (1).txt";
 			FileReader f = new FileReader(fileName);
 			char[] c = new char[10000000];
 			f.read(c);

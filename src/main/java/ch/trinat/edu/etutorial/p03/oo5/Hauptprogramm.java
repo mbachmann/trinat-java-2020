@@ -48,7 +48,7 @@ public class Hauptprogramm {
 		try {
 
 			// File reader
-			FileReader f = new FileReader("personen.txt");
+			FileReader f = new FileReader("src\\main\\java\\ch\\trinat\\edu\\etutorial\\p03\\oo5\\personen.txt");
 
 			char[] c = new char[1300];
 			f.read(c);
