@@ -12,7 +12,7 @@ public class Mensa {
 
 
 
-		try (	FileReader f = new FileReader ("src/et6/nahrungsmittel.txt");){
+		try (	FileReader f = new FileReader ("C:\\Users\\maxim\\Desktop\\JavaProgrammes\\trinat-java-2020\\src\\main\\java\\ch\\trinat\\edu\\etutorial\\p03\\oo6\\nahrungsmittel.txt");){
 			char[] c = new char [8000];
 			f.read(c);
 
