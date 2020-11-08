@@ -12,7 +12,7 @@ public class Hauptprogramm {
 		Person [] adressbuch= new Person [30];
 
 		try {
-			FileReader f = new FileReader("personen.txt");
+			FileReader f = new FileReader("C:\\Users\\lucas\\Documents\\java\\Workspace\\trinat-java-2020\\src\\main\\java\\ch\\trinat\\edu\\etutorial\\p03\\oo5\\personen.txt");
 			char[] c= new char[1300];
 			f.read(c);
 			String s = new String(c);

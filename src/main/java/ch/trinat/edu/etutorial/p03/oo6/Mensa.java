@@ -11,7 +11,7 @@ public class Mensa {
 
 
 		try{
-			FileReader f = new FileReader("nahrungsmittel.txt");
+			FileReader f = new FileReader("C:\\Users\\lucas\\Documents\\java\\Workspace\\trinat-java-2020\\src\\main\\java\\ch\\trinat\\edu\\etutorial\\p03\\oo6\\nahrungsmittel.txt");
 			char [] text = new char [100000];
 			f.read(text);
 			String s = new String(text);

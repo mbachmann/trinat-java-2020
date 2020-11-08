@@ -17,7 +17,7 @@ public class Hauptprogramm1 {
 
 
 		try {
-			FileReader f = new FileReader("PM10_2003.txt");
+			FileReader f = new FileReader("C:\\Users\\lucas\\Documents\\java\\Workspace\\trinat-java-2020\\src\\main\\java\\ch\\trinat\\edu\\etutorial\\p03\\oo5\\PM10_2003.txt");
 			char[] c= new char[25196];
 			f.read(c);
 			String s = new String(c);
