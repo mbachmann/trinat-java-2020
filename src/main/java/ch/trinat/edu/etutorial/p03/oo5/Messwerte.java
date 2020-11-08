@@ -12,7 +12,7 @@ public class Messwerte {
 		int count = 0;
 		int grenzwertzahl=0;
 		Messstation[] information = new Messstation[376];
-		try { FileReader f = new FileReader("PM10_2003.txt");
+		try { FileReader f = new FileReader("C:\\Users\\Matis\\eclipse-workspace\\trinat-java-2020\\src\\main\\java\\ch\\trinat\\edu\\etutorial\\p03\\oo5\\PM10_2003.txt");
 		char[] c = new char[25196];
 		f.read(c);
 		String s = new String(c);

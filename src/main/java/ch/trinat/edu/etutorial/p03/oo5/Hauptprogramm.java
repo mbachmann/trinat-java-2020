@@ -10,7 +10,7 @@ public class Hauptprogramm {
 		int count = 0;
 		Person[] adressbuch= new Person[30];
 
-		try { FileReader f = new FileReader("src/main/java/ch/trinat/edu/etutorial/p03/005/personen.txt");
+		try { FileReader f = new FileReader("C:\\Users\\Matis\\eclipse-workspace\\trinat-java-2020\\src\\main\\java\\ch\\trinat\\edu\\etutorial\\p03\\oo5\\personen.txt");
 		char[] c = new char[1300];
 		f.read(c);
 		String s = new String(c);
