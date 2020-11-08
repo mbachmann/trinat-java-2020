@@ -13,7 +13,7 @@ public class Student extends Person {
 		studiengang=input[6];
 	}
 	public static String print() {
-		satz= satz + "\studiengang! " + studiengang;
+	//	satz= satz + "\studiengang! " + studiengang;
 		//satz.speicher();
 		return satz;
 		}

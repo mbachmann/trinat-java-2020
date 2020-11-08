@@ -29,12 +29,7 @@ public class Uebung_6 extends Application implements EventHandler<ActionEvent>{
 // Set Accelerator for Exit MenuItem.
             exitItem.setAccelerator(KeyCombination.keyCombination("Ctrl+X"));
 // When user click on the Exit item, use anonymous inner class
-            exitItem.setOnAction(new EventHandler<ActionEvent>() {
-                @Override
-                public void handle(ActionEvent event) {
-                    System.exit(0);
-                }
-            });
+            exitItem.setOnAction(event -> System.exit(0));
             MenuItem copyItem = new MenuItem("Copy");
             MenuItem pasteItem = new MenuItem("Paste");
 // Add menuItems to the Menus
