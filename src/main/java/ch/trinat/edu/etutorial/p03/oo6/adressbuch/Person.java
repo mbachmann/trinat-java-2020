@@ -1,4 +1,5 @@
 package ch.trinat.edu.etutorial.p03.oo6.adressbuch;
+import java.text.SimpleDateFormat;
 import java.util.GregorianCalendar;
 
 public abstract class Person {
@@ -66,6 +67,11 @@ public abstract class Person {
 	}
 	
 	public String print() {
-		return  name + vorname + strasse + wohnort + hausnummer + plz + geburtsdatum;
+		SimpleDateFormat df = new SimpleDateFormat ("dd. MMMMM yyyy");
+		String geburtsDatum = df.format(geburtsdatum.getTime());
+		return vorname + " " + name + "\n" + strasse + " " + hausnummer + "\n"
+				+ plz + " " + wohnort + "\n" + "Geburtsdatum: " + geburtsDatum;
 	}
+	
+	public void delete() {}
 }
