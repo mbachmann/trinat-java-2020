@@ -13,6 +13,8 @@ public class LoginController {
     @FXML
     protected void handleSubmitButtonAction(ActionEvent event)
     {
-        System.out.println("Signin button user input: " + nameField.getText() + " pwd: " + passwordField.getText());
+        System.out.println("Signin button user input: "
+                + nameField.getText() + " pwd: "
+                + passwordField.getText());
     }
 }
