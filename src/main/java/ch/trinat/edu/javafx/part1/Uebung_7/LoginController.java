@@ -1,6 +1,6 @@
 package ch.trinat.edu.javafx.part1.Uebung_7;
 
-package sample.fxml;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.PasswordField;
