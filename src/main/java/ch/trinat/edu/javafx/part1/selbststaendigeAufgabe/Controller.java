@@ -2,15 +2,15 @@ package ch.trinat.edu.javafx.part1.selbststaendigeAufgabe;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.PasswordField;
-import javafx.scene.control.TextField;
+import javafx.scene.control.Button;
 
 public class Controller {
     @FXML
-    private PasswordField button;
+    private Button btn;
     @FXML
     protected void handleSubmitButtonAction(ActionEvent event)
     {
-    button.setText(randomText.randomActivity());
+    	
+    btn.setText(randomText.randomActivity());
     }
 }
