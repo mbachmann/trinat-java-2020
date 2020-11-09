@@ -5,7 +5,6 @@ package ch.trinat.edu.javafx.part1.selbststaendig;
 	import javafx.stage.Stage;
 	import javafx.scene.Parent;
 	import javafx.scene.Scene;
-	import javafx.scene.layout.BorderPane;
 
 
 

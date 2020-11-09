@@ -1,6 +1,5 @@
 package ch.trinat.edu.javafx.part1.uebung_4;
 
-import ch.trinat.example.hellofx.HelloFX;
 
 public class Launcher {
 

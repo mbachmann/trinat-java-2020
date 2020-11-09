@@ -1,7 +1,6 @@
 package ch.trinat.edu.javafx.part1.selbststaendig;
 
 import java.util.Vector;
-import java.util.List; 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
