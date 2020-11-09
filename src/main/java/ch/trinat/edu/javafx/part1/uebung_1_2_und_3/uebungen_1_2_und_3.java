@@ -1,4 +1,4 @@
-package ch.trinat.edu.javafx.part1.uebung_1_und_2;
+package ch.trinat.edu.javafx.part1.uebung_1_2_und_3;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -12,7 +12,7 @@ import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-public class uebung_1_und_2 extends Application
+public class uebungen_1_2_und_3 extends Application
 {
 	Pane createButton() {
 		final Button btn = new Button();
