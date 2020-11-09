@@ -1,5 +1,10 @@
-package ch.trinat.edu.javafx.part1.uebung_7;
+package ch.trinat.edu.javafx.part1.uebung_4;
+
+import ch.trinat.example.hellofx.HelloFX;
 
 public class Launcher {
 
+    public static void main(String[] args) {
+    	uebung_4.main(args);
+    }
 }
