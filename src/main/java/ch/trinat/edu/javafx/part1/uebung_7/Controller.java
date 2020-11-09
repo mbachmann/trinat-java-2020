@@ -19,7 +19,6 @@ public class Controller {
 	 { System.out.println("Signin button user input: "
 				 + nameField.getText() + " pwd: "
 				 + passwordField.getText());
-	 btn.setText("cahnge");
 
 	}}
 
