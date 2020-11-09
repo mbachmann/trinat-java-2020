@@ -9,11 +9,11 @@ import javafx.stage.Stage;
 public class Main extends Application {
     @Override
     public void start(Stage stage) throws Exception {
-        final Parent root = FXMLLoader.load(getClass().getResource("Uebung_7/login.fxml"));
+        final Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
         stage.setScene(new Scene(root, 460, 180));
         // Load CSS
-        //
-        stage.getScene().getStylesheets().add(getClass().getResource("Uebung_7/login.css").toExternalForm());
+        //stage.getScene().getStylesheets().add(getClass().getResource("login.css").toExternalForm());
+
         stage.setTitle("FXML Demo");
         stage.show();
     }
