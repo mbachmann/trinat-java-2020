@@ -10,7 +10,6 @@ public class Controller {
     @FXML
     protected void handleSubmitButtonAction(ActionEvent event)
     {
-    	
     btn.setText(randomText.randomActivity());
     }
 }
