@@ -8,22 +8,16 @@ public class Adressbuch {
 	GregorianCalendar geburtsdatum;
 	int hausnummer,plz;
 	static Person temp;
-	static Vector <Person> speicher = new Vector <Person>();
+	static Vector <Person> personen = new Vector <Person>();
 	
-    public static void addPerson (Person p) {
-      speicher.add(p);
-    }
-    public void addStudent(Student s) {
-    	speicher.add(s);
-    }
-    public void addLehrer(Lehrer l) {
-    	speicher.add(l);
-    }
-    
+	 public void addPerson(Person p) {
+	    	personen.add(p);
+	    }
+	 
     public String printAll () {
     	String info ="";
-    	for(int i=0;i<speicher.size();i++) {
-		temp = speicher.elementAt(i);
+    	for(int i=0;i<personen.size();i++) {
+		temp = personen.elementAt(i);
 		info +="\n\t"+(i+1)+". Eintrag: \n"+ Person.print();
 		if(temp instanceof Lehrer) {
 		info += Lehrer.print();
@@ -37,7 +31,7 @@ public class Adressbuch {
     
    } 
     public void deleteAll () {
-		speicher.removeAllElements();
+		personen.removeAllElements();
     }
 
 	

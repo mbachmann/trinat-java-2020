@@ -12,9 +12,5 @@ public class Student extends Person {
 		super(input);
 		studiengang=input[6];
 	}
-	public static String print() {
-	//	satz= satz + "\studiengang! " + studiengang;
-		//satz.speicher();
-		return satz;
-		}
+
 }

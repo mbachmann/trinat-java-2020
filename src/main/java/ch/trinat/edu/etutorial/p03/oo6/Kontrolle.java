@@ -84,7 +84,7 @@ public class Kontrolle extends JPanel {
 	    /**
 	     * @return the eingabe
 	     */
-	    public static Eingabe getEingabe() {
+	    public Eingabe getEingabe() {
 	        return eingabe;
 	    }
 
