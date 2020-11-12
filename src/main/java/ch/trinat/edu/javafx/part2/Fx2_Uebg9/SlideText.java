@@ -14,7 +14,7 @@ import javafx.stage.Stage;
 public class SlideText extends Application {
         @Override
             public void start(Stage stage) throws Exception {
-                final Parent root = FXMLLoader.load(getClass().getResource("MarcusAurelius"));
+                final Parent root = FXMLLoader.load(getClass().getResource("MarcusAurelius.fxml"));
                 stage.setScene(new Scene(root, 460, 180));
                 stage.setTitle("Uebg9");
                 stage.show();

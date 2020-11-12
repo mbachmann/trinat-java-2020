@@ -1,4 +1,4 @@
-package ch.trinat.edu.javafx.part2.Fx2_Uebg8;
+package ch.trinat.edu.javafx.part2.Fx2_Uebg9;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Slider;
