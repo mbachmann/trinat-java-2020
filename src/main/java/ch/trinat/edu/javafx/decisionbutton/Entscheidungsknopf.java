@@ -1,4 +1,4 @@
-package ch.trinat.edu.javafx.part1;
+package ch.trinat.edu.javafx.decisionbutton;
 
 import javafx.application.Application;
 import javafx.scene.Group;
@@ -11,16 +11,26 @@ import javafx.stage.Stage;
 
 public class Entscheidungsknopf extends Application{
 
-	
+	public String randomAnswer() {
+		
+		String[] answer = {"Wir gehen ins Kino", "Wir gehen ans Konzert", 
+							"Wir gehen essen", "Wir gehen in den Park",
+							"Wir bleiben heute zu Hause", "Wir gehen heute schwimmen"
+		};
+		int random = (int) (Math.random()*6);
+		return answer[random];
+		
+	}
 	
 	@Override
 	public void start(Stage primaryStage) {
 		try {
 			
 			BorderPane root = new BorderPane();
+			root.setMinHeight(200);
+			root.setMinWidth(200);
 			Button button = new Button("Klick mich");
-			
-
+			button.setOnAction(e -> button.setText(randomAnswer()));
 			root.setCenter(button);
 			primaryStage.setScene(new Scene(root));
 			primaryStage.setTitle("Entscheidungsknopf");
