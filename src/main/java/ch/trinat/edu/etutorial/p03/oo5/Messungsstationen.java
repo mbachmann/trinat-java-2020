@@ -10,7 +10,7 @@ public class Messungsstationen {
 		
 		Vector <Messdaten> stationen = new Vector <Messdaten>();
 		
-		try (FileReader f = new FileReader("src/main/java\\ch.trinat.edu.etutorial.p03.oo5\\PM10_2003.txt")){
+		try (FileReader f = new FileReader("src/main/java/ch/trinat/edu/etutorial/p03/oo5/PM10_2003.txt")){
 			
 			char[] c = new char[900000];
 			
