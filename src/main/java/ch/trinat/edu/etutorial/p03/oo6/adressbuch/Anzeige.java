@@ -9,7 +9,7 @@ import java.awt.event.WindowEvent;
 
 public class Anzeige {
 
-    public Anzeige (JFrame frame, Class[] classes) {
+    public Anzeige (JFrame frame, @SuppressWarnings("rawtypes") Class[] classes) {
         JSplitPane 	splitpane1;
         JSplitPane  splitpane2;
         JTextArea   text;
@@ -44,8 +44,10 @@ public class Anzeige {
         /**
          * Hier alle möglichen Klassen mit <klassenname>.class eintragen:
          */
-        Class [] classes = {Person.class, Student.class, Professor.class};
-        Anzeige anzeige = new Anzeige(frame, classes);
+        @SuppressWarnings("rawtypes")
+		Class [] classes = {Person.class, Student.class, Professor.class};
+        @SuppressWarnings("unused")
+		Anzeige anzeige = new Anzeige(frame, classes);
         frame.addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent e) {
                 System.exit(0);

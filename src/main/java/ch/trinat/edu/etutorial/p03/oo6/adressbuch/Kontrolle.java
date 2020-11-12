@@ -10,13 +10,14 @@ import java.awt.event.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+@SuppressWarnings("serial")
 public class Kontrolle extends JPanel {
 
     private Eingabe eingabe;
     private final Adressbuch adressbuch;
     private final JTextArea text;
 
-    public Kontrolle (final Adressbuch a, final JTextArea t, final Class[] classes, final JFrame fr) {
+    public Kontrolle (final Adressbuch a, final JTextArea t, @SuppressWarnings("rawtypes") final Class[] classes, final JFrame fr) {
 
         adressbuch = a;
         text = t;

@@ -6,9 +6,11 @@ import java.awt.*;
 import java.util.*;
 import javax.swing.*;
 
+@SuppressWarnings({ "unused", "serial" })
 public class Eingabe extends JPanel {
 
     JTextField[] fields;
+	@SuppressWarnings("rawtypes")
 	Class type;
    
     public void zeigeAn() {
@@ -62,13 +64,15 @@ public class Eingabe extends JPanel {
     }
 
 
-    public void makePerson (Adressbuch a) throws Exception {
+    @SuppressWarnings("unchecked")
+	public void makePerson (Adressbuch a) throws Exception {
 
         String[] input = new String[fields.length];
         for (int i=0; i<fields.length; i++) {
             input[i] = fields[i].getText();
         }
-        Class[] paramTypes = {String[].class};
+        @SuppressWarnings("rawtypes")
+		Class[] paramTypes = {String[].class};
         Object[] initargs = {input};
         a.addPerson((Person)(type.getConstructor(paramTypes).newInstance(initargs)));
     }
@@ -88,7 +92,7 @@ public class Eingabe extends JPanel {
     /**
      * @param type the type to set
      */
-    public void setType(Class type) {
+    public void setType(@SuppressWarnings("rawtypes") Class type) {
         this.type = type;
     }
 
