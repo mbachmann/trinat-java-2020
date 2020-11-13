@@ -1,4 +1,4 @@
-package ch.trinat.edu.javafx.part1.uebung4;
+package ch.trinat.edu.javafx.part1.uebung04;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;
