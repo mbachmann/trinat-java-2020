@@ -5,7 +5,7 @@ import javafx.scene.control.Slider;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 
-public class laoTseu {
+public class controller {
     @FXML
     private AnchorPane bgd = new AnchorPane();
     @FXML

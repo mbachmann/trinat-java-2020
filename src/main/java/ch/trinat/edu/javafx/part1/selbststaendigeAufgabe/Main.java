@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 public class Main extends Application {
     @Override
     public void start(Stage stage) throws Exception {
-        final Parent root = FXMLLoader.load(getClass().getResource("klickMich.fxml"));
+        final Parent root = FXMLLoader.load(getClass().getResource("../../../../../../../resources/ch.trinat/edu/javafx/part1/selbststaendigeAufgabe/klickMich.fxml"));
         stage.setScene(new Scene(root, 460, 180));
         stage.setTitle("JavaFx selbstaendiger Teil : Klick Mich");
         stage.show();
@@ -27,7 +27,7 @@ public class Main extends Application {
     {
     		//store Activities from database into vector
     		try (
-    				FileReader f = new FileReader("C:\\Users\\micas\\Documents\\Cours\\Java\\eclipse\\Workspace\\trinat-java-2020\\src\\main\\java\\ch\\trinat\\edu\\javafx\\part1\\selbststaendigeAufgabe\\database")) {
+    				FileReader f = new FileReader("C:\\Users\\micas\\Documents\\Cours\\Java\\IntelliJS3\\trinat-java-2020\\src\\main\\resources\\ch.trinat\\edu\\javafx\\part1\\selbststaendigeAufgabe\\database")) {
     			char c[] = new char[10000];
     			f.read(c);
     			String s = new String(c);
