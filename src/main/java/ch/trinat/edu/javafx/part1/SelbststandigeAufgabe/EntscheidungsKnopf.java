@@ -11,7 +11,7 @@ public class EntscheidungsKnopf extends Application{
 
 	public void start(Stage primaryStage) throws Exception {
 		
-      try {  final Parent root = FXMLLoader.load(getClass().getResource("../../../../../../../resources/ch/trinat/edu/javafx/part1/SelbstandigeAufgabe/Parameter.fxml"));
+      try {  final Parent root = FXMLLoader.load(getClass().getResource("Parameter.fxml"));
         primaryStage.setScene(new Scene(root,600, 450));
        
 
