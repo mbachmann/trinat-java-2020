@@ -15,7 +15,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.release>11</maven.compiler.release>
+		<maven.compiler.release>1.8</maven.compiler.release>
 		<javafx.version>15</javafx.version>
 		<junit.version>4.13</junit.version>
 		<junit.jupiter.version>5.5.2</junit.jupiter.version>
@@ -88,7 +88,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version>
 				<configuration>
 					<release>${maven.compiler.release}</release>
 				</configuration>
