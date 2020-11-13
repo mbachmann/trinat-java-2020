@@ -1,4 +1,4 @@
-package ch.trinat.edu.javafx.part1.SelbststandigeAufgabe;
+package ch.trinat.edu.javafx.part1.SelbstandigeAufgabe;
 import java.util.Vector;
 
 import javafx.event.ActionEvent;
