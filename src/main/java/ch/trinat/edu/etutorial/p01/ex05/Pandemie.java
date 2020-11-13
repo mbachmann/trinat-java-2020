@@ -43,6 +43,8 @@ public class Pandemie extends PApplet {
 		 //x-Wert= x*Schriftgrösse + Schriftgrösse. y-Wert analog
 
 		print();
+		
+		z.close();
 
 	}
 
