@@ -10,7 +10,6 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 public class JavaSliderField extends Application {
-	@SuppressWarnings("deprecation")
 	@Override
 	public void start(Stage stage) {
 		TextField textField = new TextField ();
