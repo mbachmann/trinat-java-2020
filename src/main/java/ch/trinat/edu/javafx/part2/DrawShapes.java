@@ -22,25 +22,30 @@ public class DrawShapes extends Application {
 		line.setStroke(Color.RED);
 		line.setStrokeWidth(5);
 		root.getChildren().add(line);
+		
 		Circle c1 = new Circle(60, 25, 20);
 		c1.setStroke(null);
 		c1.setFill(Color.GREEN);
 		root.getChildren().add(c1);
+		
 		Circle c2 = new Circle(90, 25, 20);
 		c2.setStroke(Color.RED);
 		c2.setFill(null);
 		c2.setStrokeWidth(5);
 		root.getChildren().add(c2);
+		
 		Rectangle r1 = new Rectangle(120, 10, 40, 40);
 		r1.setStroke(null);
 		r1.setFill(Color.GREEN);
 		root.getChildren().add(r1);
+		
 		Rectangle r2 = new Rectangle(170, 10, 40, 40);
 		r2.setStroke(Color.RED);
 		r2.setFill(null);
 		r2.setStrokeWidth(5);
 		root.getChildren().add(r2);
 	}
+	
 	public static void main(String[] args) {
 		launch(args);
 	}
