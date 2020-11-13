@@ -6,7 +6,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 
 
-public class Controlller {
+public class Controller {
 	Vector<String> antworten = new Vector<String>();
  
 @FXML

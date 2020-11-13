@@ -5,7 +5,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.trinat.edu.javafx.part1.SelbststandigeAufgabe.Controlller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.trinat.edu.javafx.part1.SelbststandigeAufgabe.Controller">
    <children>
       <Button fx:id="klick" layoutX="211.0" layoutY="160.0" mnemonicParsing="false" onAction="#change" prefHeight="100" prefWidth="150" text="Klick mich" />
       <Text fontSmoothingType="LCD" layoutX="155.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Was machen wir Heute?" textAlignment="CENTER" wrappingWidth="261.99999552965164">
