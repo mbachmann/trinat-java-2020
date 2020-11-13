@@ -1,4 +1,4 @@
-package ch.trinat.edu.javafx.part1;
+package ch.trinat.edu.javafx.part1.menu;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -60,7 +60,7 @@ public class Ubung6 extends Application implements EventHandler<ActionEvent> {
 			primaryStage.setTitle("JavaFX Menu");
 			primaryStage.setScene(scene);
 			primaryStage.show();
-			
+
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
