@@ -27,7 +27,7 @@ public class Main extends Application {
     {
     		//store Activities from database into vector
     		try (
-    				FileReader f = new FileReader("C:\\Users\\micas\\Documents\\Cours\\Java\\IntelliJS3\\trinat-java-2020\\src\\main\\resources\\ch.trinat\\edu\\javafx\\part1\\selbststaendigeAufgabe\\database")) {
+    				FileReader f = new FileReader("C:\\Users\\micas\\Documents\\Cours\\Java\\IntelliJS3\\trinat-java-2020\\src\\main\\resources\\ch\\trinat\\edu\\javafx\\part1\\selbststaendigeAufgabe\\database")) {
     			char c[] = new char[10000];
     			f.read(c);
     			String s = new String(c);
