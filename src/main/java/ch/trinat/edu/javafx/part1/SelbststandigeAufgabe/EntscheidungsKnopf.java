@@ -1,4 +1,4 @@
-package ch.trinat.edu.javafx.part1.SelbstständigeAufgabe;
+package ch.trinat.edu.javafx.part1.SelbststandigeAufgabe;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -11,7 +11,7 @@ public class EntscheidungsKnopf extends Application{
 
 	public void start(Stage primaryStage) throws Exception {
 		
-      try {  final Parent root = FXMLLoader.load(getClass().getResource("Parameter.fxml"));
+      try {  final Parent root = FXMLLoader.load(getClass().getResource("../../../../../../../resources/ch/trinat/edu/javafx/part1/SelbstandigeAufgabe/Parameter.fxml"));
         primaryStage.setScene(new Scene(root,600, 450));
        
 

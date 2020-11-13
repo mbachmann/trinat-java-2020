@@ -1,4 +1,4 @@
-package ch.trinat.edu.javafx.part1.SelbstständigeAufgabe;
+package ch.trinat.edu.javafx.part1.SelbststandigeAufgabe;
 
 
 
