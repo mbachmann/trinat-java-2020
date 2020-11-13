@@ -21,7 +21,6 @@
 		<junit.jupiter.version>5.5.2</junit.jupiter.version>
 		<junit.vintage.version>5.5.2</junit.vintage.version>
 	</properties>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.openjfx</groupId>
