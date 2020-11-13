@@ -8,7 +8,7 @@ public class Wetterstation {
 	public static void main(String[] args) {
 		Vector<Messwerte> wetterstation = new Vector<Messwerte>();
 		int count = 0;
-		try (FileReader f = new FileReader("src/main/java/ch.trinat.edu.etutorial.p03.oo5/messwerte2.txt")){
+		try (FileReader f = new FileReader("src/main/java/ch/trinat/edu/etutorial/p03/oo5/messwerte2.txt")){
 
 			char[] c = new char[10000000];
 			f.read(c);
