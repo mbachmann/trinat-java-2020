@@ -3,7 +3,6 @@ package ch.trinat.edu.javafx.part2.uebung09;
 import java.text.NumberFormat;
 
 import javafx.application.Application;
-import javafx.beans.binding.Bindings;
 import javafx.scene.Scene;
 import javafx.scene.control.Slider;
 import javafx.scene.control.TextField;
