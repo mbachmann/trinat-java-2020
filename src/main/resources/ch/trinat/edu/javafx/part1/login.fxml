@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <GridPane alignment="CENTER" hgap="7.0" vgap="7.0" xmlns:fx="http://javafx.com/fxml/1"
-      xmlns="http://javafx.com/javafx/2.2" fx:controller="ch.trinat.edu.javafx.part2.fxml.LoginController">
+      xmlns="http://javafx.com/javafx/2.2" fx:controller="ch.trinat.edu.javafx.part1.LoginController">
 
  <children>
  <Label text="Name:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
