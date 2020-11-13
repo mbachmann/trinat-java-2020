@@ -12,6 +12,7 @@ public class Pandemie extends PApplet
 	int zeile=190, spalte=93, maxTage=365;
     int[][] population = new int[zeile][spalte];
     static int tage=1;
+    
 	static public void main(String args[]) {
 		PApplet.main(new String[] { "ch.trinat.edu.etutorial.p01.ex05.pandemie.Pandemie" });
 	}
