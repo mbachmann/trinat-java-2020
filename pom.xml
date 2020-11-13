@@ -29,6 +29,11 @@
 			<version>${javafx.version}</version>
 		</dependency>
 		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-fxml</artifactId>
+			<version>${javafx.version}</version>
+		</dependency>
+		<dependency>
 			<groupId>org.core</groupId>
 			<artifactId>core-jar</artifactId>
 			<version>1.0</version>
@@ -153,7 +158,7 @@
 				</executions>
 			</plugin>
 		</plugins>
-		<pluginManagement><!-- lock down plugins versions to avoid using Maven 
+		<pluginManagement><!-- lock down plugins versions to avoid using Maven
 				defaults (may be moved to parent pom) -->
 			<plugins>
 				<!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
