@@ -1,3 +1,5 @@
+package ch.trinat.edu.etutorial.p03.oo5.ET05;
+
 import java.util.Calendar;
 
 
@@ -13,7 +15,7 @@ public class Hauptprogramm {
 	public static void main(String[] args) {
 
 		int count = 0;
-		Person [] adressbuch= new Person [30];
+		Person[] adressbuch= new Person[30];
 
 		try {
 			FileReader f = new FileReader("/Users/theoportmann/Downloads/personen.txt");
