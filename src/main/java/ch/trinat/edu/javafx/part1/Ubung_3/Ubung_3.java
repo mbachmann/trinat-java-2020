@@ -1,4 +1,4 @@
-package ch.trinat.edu.javafx.part1;
+package ch.trinat.edu.javafx.part1.Ubung_3;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
