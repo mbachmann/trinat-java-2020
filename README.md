@@ -72,4 +72,5 @@ If there is no git connector available... please install it
 - https://github.com/MatisGourdes/Project-undercover-2020
 - https://github.com/BollingerJerome
 - https://github.com/noemiebertrand/BatailleNavale
+- https://github.com/noemiebertrand/Seeschlacht
 - https://github.com/enzojob/eiffel-snake
