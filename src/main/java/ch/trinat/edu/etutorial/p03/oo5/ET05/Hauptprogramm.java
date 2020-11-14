@@ -18,7 +18,7 @@ public class Hauptprogramm {
 		Person[] adressbuch= new Person[30];
 
 		try {
-			FileReader f = new FileReader("/Users/theoportmann/Downloads/personen.txt");
+			FileReader f = new FileReader("/Users/theoportmann/IdeaProjects/trinat-java-20/src/main/java/ch/trinat/edu/etutorial/p03/oo5/ET05/Personen");
 			char[] c= new char[1300];
 			f.read(c);
 			String s = new String(c);
