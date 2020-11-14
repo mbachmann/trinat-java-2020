@@ -26,7 +26,7 @@ public class HelloWorld extends Application {
 		root.getChildren().add(label1);
 		root.getChildren().add(label2);
 		
-		root.getChildren().add(createButton());
+		root.getChildren().add(createButtonLamda());
 		
 		Scene scene = new Scene(root, 600, 300, Color.AZURE);
 		primaryStage.setScene(scene);
@@ -47,8 +47,7 @@ public class HelloWorld extends Application {
 				pane.getChildren().add(new Label("- Hello World! -"));
 			}
 		});
-		
-		
+				
 		return pane;
 	}
 	
@@ -56,4 +55,16 @@ public class HelloWorld extends Application {
 		launch(args);
 	}
 
+	Pane createButtonLamda() {
+		final Button button = new Button();
+		button.setText("Add 'Hello World' Label");
+		final Pane pane = new FlowPane();
+		pane.setPadding(new Insets(7, 7, 7, 7));
+		pane.getChildren().add(button);
+		
+		button.setOnAction(event -> pane.getChildren().add(new Label("- Hello World! -")));
+		
+		return pane;
+	}
+	
 }
