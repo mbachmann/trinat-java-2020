@@ -4,6 +4,7 @@ public class Launcher {
 	public static void main(String[] args) {
 		// HelloWorld.main(args);
 		// LayoutCombinationExample.main(args);
-		ActivateScenes.main(args);
+		// ActivateScenes.main(args);
+		MenuExample.main(args);
 	}
 }
