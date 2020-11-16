@@ -1,4 +1,4 @@
-package ch.trinat.edu.javafx.part1.Ubung_8;
+package ch.trinat.edu.javafx.part1.Selbstandig;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -12,7 +12,7 @@ import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
-public class Ubung_8 extends Application{
+public class Selbstandig extends Application{
 	
 	 static String answer;
 	 
