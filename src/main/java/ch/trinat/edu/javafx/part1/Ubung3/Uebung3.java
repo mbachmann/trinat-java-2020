@@ -1,4 +1,4 @@
-package ch.trinat.edu.javafx.part1;
+package ch.trinat.edu.javafx.part1.Ubung3;
 
 
 
