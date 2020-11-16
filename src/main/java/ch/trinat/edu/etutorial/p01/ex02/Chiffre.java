@@ -7,7 +7,7 @@ public class Chiffre {
 	public static void main(String[] args) {
     /* programm das ein Wort verschl�sselt */ 
 		String newLine = System.getProperty("line.separator");
-		System.out.print("Bitte geben Sie den Buchstaben ein, den Sie verschl�sseln m�chten: ");
+		System.out.print("Bitte geben Sie den Buchstaben ein, den Sie verschl�sseln mochten: ");
 		Scanner eingabe = new Scanner(System.in);
 	    String x = eingabe.next();
 		char buchstabe = x.charAt(0);  /* Variabel f�r ein Zeichen */
