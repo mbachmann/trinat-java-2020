@@ -16,7 +16,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.release>11</maven.compiler.release>
-		<javafx.version>14</javafx.version>
+		<javafx.version>15</javafx.version>
 		<junit.version>4.13</junit.version>
 		<junit.jupiter.version>5.5.2</junit.jupiter.version>
 		<junit.vintage.version>5.5.2</junit.vintage.version>
@@ -24,9 +24,38 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>org.core</groupId>
+			<artifactId>core-jar</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/core.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>org.vterm</groupId>
+			<artifactId>VTerm104-jar</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/VTerm104.jar</systemPath>
+		</dependency>
+		<dependency>
 			<groupId>org.openjfx</groupId>
 			<artifactId>javafx-controls</artifactId>
 			<version>${javafx.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-fxml</artifactId>
+			<version>${javafx.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.4</version>
 		</dependency>
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
