@@ -6,7 +6,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-public class Ubung1 extends Application {
+public class Ubung01_HelloWorld extends Application {
 	public void start(Stage primaryStage) {
 		Label l1 = new Label("Hallo");
 		Label l2 = new Label("Welt");

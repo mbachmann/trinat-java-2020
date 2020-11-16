@@ -9,7 +9,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-public class Ubung5 extends Application {
+public class Ubung05_ActivateScenes extends Application {
 	Stage fenster;
 	Scene szene1, szene2;
 	Button button1, button2;

@@ -1,4 +1,4 @@
-package ch.trinat.edu.javafx.part2.tableview;
+package ch.trinat.edu.javafx.part2.Ubung12_TableViewSample;
 
 import javafx.beans.property.SimpleStringProperty;
 

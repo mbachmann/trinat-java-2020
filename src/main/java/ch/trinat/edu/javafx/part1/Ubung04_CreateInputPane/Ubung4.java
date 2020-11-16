@@ -1,4 +1,4 @@
-package ch.trinat.edu.javafx.part1.Ubung4;
+package ch.trinat.edu.javafx.part1.Ubung04_CreateInputPane;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;

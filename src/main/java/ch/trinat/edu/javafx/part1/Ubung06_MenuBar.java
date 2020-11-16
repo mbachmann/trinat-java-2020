@@ -13,7 +13,7 @@ import javafx.scene.input.KeyCombination;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
-public class Ubung6 extends Application implements EventHandler<ActionEvent> {
+public class Ubung06_MenuBar extends Application implements EventHandler<ActionEvent> {
 	public static void main(String[] args) {
 		launch(args);
 	}

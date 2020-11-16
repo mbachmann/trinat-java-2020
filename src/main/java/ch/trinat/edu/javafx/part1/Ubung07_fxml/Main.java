@@ -1,4 +1,4 @@
- package ch.trinat.edu.javafx.part1.Ubung7fxml;
+ package ch.trinat.edu.javafx.part1.Ubung07_fxml;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -13,15 +13,14 @@ public class Main extends Application {
 
         final Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
         stage.setScene(new Scene(root, 460, 180));
-        // Load CSS
-        // stage.getScene().getStylesheets().add(getClass().getResource("login.css").toExternalForm());
+        //Load CSS
+        stage.getScene().getStylesheets().add(getClass().getResource("login.css").toExternalForm());
 
         stage.setTitle("FXML Demo");
         stage.show();
     }
 
-    public static void main(final String[] args)
-    {
+    public static void main(final String[] args) {
         launch(args);
     }
 }

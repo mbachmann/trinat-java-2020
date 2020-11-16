@@ -1,4 +1,4 @@
-package ch.trinat.edu.javafx.part1.Ubung7fxml;
+package ch.trinat.edu.javafx.part1.Ubung07_fxml;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

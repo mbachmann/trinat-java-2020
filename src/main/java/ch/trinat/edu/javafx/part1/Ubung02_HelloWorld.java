@@ -1,6 +1,8 @@
 package ch.trinat.edu.javafx.part1;
 
 import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -10,7 +12,7 @@ import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-public class Ubung3 extends Application {
+public class Ubung02_HelloWorld extends Application {
 	public void start(Stage primaryStage) {
 		Label l1 = new Label("Hallo");
 		Label l2 = new Label("Welt");
@@ -35,8 +37,12 @@ public class Ubung3 extends Application {
 		final FlowPane pane = new FlowPane();
 		pane.setPadding(new Insets(7, 7, 7, 7));
 		pane.getChildren().add(btn);
-		btn.setOnAction(event -> pane.getChildren()
-				.add(new Label("- Hello World! -")));
+		// ActionHandler registrieren
+		btn.setOnAction(new EventHandler<ActionEvent>() {
+			public void handle(ActionEvent event) {
+				pane.getChildren().add(new Label("- Hello World! -"));
+			}
+		});
 		return pane;
 	}
 }

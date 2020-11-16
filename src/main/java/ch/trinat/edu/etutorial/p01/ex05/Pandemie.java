@@ -1,4 +1,4 @@
-package ch.trinat.edu.etutorial.p01.modul_4;
+package ch.trinat.edu.etutorial.p01.ex05;
 //import java.util.Scanner;
 
 import processing.core.PApplet;
@@ -31,7 +31,7 @@ public class Pandemie extends PApplet
 		}
 		*/
 
-    	size(1900, 950);  	// Setzt die Grösse des Fensters
+    	size(1250, 600);  	// Setzt die Grösse des Fensters
 	    background(255);  	// Setzt die Hintergrundfarbe auf Weiss
 	    fill(0);			// Setzt die Schreibfarbe auf Schwarz;
     	frameRate(21); 		// gibt an wie schnell die Simulation laufen soll
