@@ -66,3 +66,11 @@ Navigate to Import->Maven->Check out Maven project from scm
 If there is no git connector available... please install it
 
 
+## Trinat Projects
+
+- https://github.com/tMohler57/Vokabeltrainer
+- https://github.com/MatisGourdes/Project-undercover-2020
+- https://github.com/BollingerJerome
+- https://github.com/noemiebertrand/BatailleNavale
+- https://github.com/noemiebertrand/Seeschlacht
+- https://github.com/enzojob/eiffel-snake
