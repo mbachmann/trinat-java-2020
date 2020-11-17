@@ -1,7 +1,7 @@
-package ch.trinat.edu.javafx.part2.mvvm.presentation;
+package ch.trinat.edu.javafx.part2.mvp.presentation;
 
-import ch.trinat.edu.javafx.part2.mvvm.domain.DomainController;
-import ch.trinat.edu.javafx.part2.mvvm.domain.StudentModel;
+import ch.trinat.edu.javafx.part2.mvp.domain.DomainController;
+import ch.trinat.edu.javafx.part2.mvp.domain.StudentModel;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -12,7 +12,6 @@ public class MvvmApp extends Application {
 
     private StudentModel studentModel;
     private DomainController domainController;
-    StudentViewModel studentViewModel;
 
     @Override
     public void start(Stage primaryStage) throws Exception {
@@ -23,9 +22,10 @@ public class MvvmApp extends Application {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("StudentView.fxml"));
         Parent root = loader.load();
 
-        // get the StudentView and bind it with the ViewModel
-        StudentView studentView = (StudentView) loader.getController();
-        studentView.setStudentViewModel(studentViewModel);
+        // get the Presenter and bind it with the domainController
+        Presenter presenter = (Presenter) loader.getController();
+        presenter.setDomainController(domainController);
+        studentModel.addPropertyChangeListener( e -> presenter.onStudentNameChanged(e.getNewValue().toString()));
 
         //add root to the window and show it
         primaryStage.setTitle("Hello World");
@@ -40,9 +40,6 @@ public class MvvmApp extends Application {
     private void initApp() {
         studentModel = new StudentModel(1, "Felix Muster");
         domainController = new DomainController(studentModel);
-        studentViewModel = new StudentViewModel(domainController);
-        studentModel.addPropertyChangeListener( e -> {
-                studentViewModel.onStudentNameChanged(e.getNewValue().toString());
-        });
+
     }
 }
