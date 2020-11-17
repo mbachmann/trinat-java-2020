@@ -7,59 +7,76 @@ import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
-public class EntscheidungsKnopfErweiterung extends Application{
+public class EntscheidungsKnopfErweiterung extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		try {
-			
+
 			VBox root = new VBox();
-			Scene scene = new Scene(root, 400, 100, Color.AZURE);
 			root.setPadding(new Insets(10));
 			
+			Label label = new Label("Tat: ");
+
+			root.getChildren().add(label);
+
 			root.getChildren().add(createButton());
-			
+
+			Scene scene = new Scene(root, 400, 100, Color.AZURE);
 			primaryStage.setScene(scene);
 			primaryStage.setTitle("Was machen wir heute Abend?");
 			primaryStage.show();
-			
-		} catch(Exception e) {
+
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
+
 	}
-	
+
 	Pane createButton() {
 		final Button button = new Button();
 		button.setText("Klick mich");
-		
+
 		final BorderPane pane = new BorderPane();
 		BorderPane.setAlignment(button, Pos.CENTER);
-	    BorderPane.setMargin(button, new Insets(12,12,12,12));
+		BorderPane.setMargin(button, new Insets(12, 12, 12, 12));
 		pane.setCenter(button);
-		
+
 		button.setOnAction(new EventHandler<ActionEvent>() {
 			@Override
 			public void handle(ActionEvent event) {
 				button.setText(randomAnswer());
 			}
 		});
-				
+
 		return pane;
 	}
-	
-public String randomAnswer() {
-		String[] todaysPlan = {	"Wir gehen ins Kino", "Wir gehen an ein Konzert", "Wir gehen essen", "Wir gehen spazieren", "Wir sehen uns einen Film an", "Wir gamen", "Wir gehen tanzen"};
-		int random = (int) (Math.random()*7);
+
+	public String randomAnswer() {
+		String[] todaysPlan = { "Wir gehen ins Kino", "Wir gehen an ein Konzert", "Wir gehen essen",
+				"Wir gehen spazieren", "Wir sehen uns einen Film an", "Wir gamen", "Wir gehen tanzen" };
+		int random = (int) (Math.random() * 7);
 		return todaysPlan[random];
 	}
 	
+	Pane eingabe() {
+		Label label = new Label("Tat: ");
+		
+		final BorderPane pane = new BorderPane();
+		
+		BorderPane.setAlignment(label, Pos.TOP_LEFT);
+		//BorderPane.setMargin(label, new Insets(12, 12, 12, 12));
+		pane.getChildren().add(label);
+		
+		return pane;
+	}
 
 	public static void main(String[] args) {
 		launch(args);
