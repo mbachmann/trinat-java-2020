@@ -1,9 +1,16 @@
 package ch.trinat.edu.javafx.decisionbutton;
 
 import javafx.application.Application;
+import javafx.beans.binding.Bindings;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.ListView;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 public class DecisionButton extends Application{
@@ -26,6 +33,7 @@ public class DecisionButton extends Application{
 			
 			Button button = new Button("Klick mich");
 			button.setOnAction(e -> button.setText(zufaelligeAntwort()));
+			
 			
 			root.setCenter(button);
 			
