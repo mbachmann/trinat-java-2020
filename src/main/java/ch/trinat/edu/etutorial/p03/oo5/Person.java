@@ -1,4 +1,4 @@
-package Selbständige;
+package ch.trinat.edu.etutorial.p03.oo5;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
@@ -10,10 +10,6 @@ public class Person {
 	private int hausnummer, postleitzahl;
 	private GregorianCalendar geburtsdatum;
 
-	Person (String test){
-	 name = test; 	
-	}
-	
 	public String getName() {
 		return name;
 	}
@@ -70,8 +66,7 @@ public class Person {
 		this.postleitzahl = postleitzahl;
 	}
 
-	public Person (String n, String v, String s, int h, int p, String w, GregorianCalendar g
-			) {
+	public Person (String n, String v, String s, int h, int p, String w, GregorianCalendar g) {
 		setName(n);
 		setVorname(v);
 		setGeburtsdatum(g);
@@ -81,7 +76,6 @@ public class Person {
 		setPostleitzahl(p);
 
 	}
-	
 
 	public int alter() {
 
@@ -92,21 +86,13 @@ public class Person {
 
 	}
 
-	public String print () {
-		String test;
+	public void print () {
 		SimpleDateFormat df = new SimpleDateFormat("dd. MMMM yyyy");
 		String gebDat = df.format(geburtsdatum.getTime());
-		/*System.out.println(	vorname + "  " + name + "\n" 
+		System.out.println(	vorname + "  " + name + "\n" 
 				+ alter() + " Jahre alt \n"
 				+ "am " + gebDat + " geboren\n"
 				+ "Adresse: " + strasse + " " + hausnummer + " \n"
 				+ postleitzahl + " " + wohnort + "\n");
-				*/
-		test = vorname + "  " + name + "\n" 
-				+ alter() + " Jahre alt \n"
-				+ "am " + gebDat + " geboren\n"
-				+ "Adresse: " + strasse + " " + hausnummer + " \n"
-				+ postleitzahl + " " + wohnort + "\n";
-		return test;
 	}
 }

@@ -2,11 +2,12 @@
  * In dieser Klasse werden die Buttons und die Dropdown-Liste erzeugt.
  */
 
-package Selbständige;
+package ch.trinat.edu.etutorial.p03.oo6;
 
 import javax.swing.*;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
+
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.event.ActionEvent;

@@ -1,4 +1,4 @@
-package Selbständige;
+package ch.trinat.edu.etutorial.p03.oo6;
 
 import java.util.GregorianCalendar;
 

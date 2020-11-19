@@ -2,9 +2,10 @@
  * Das Hauptprogramm. Hier werden alle Elemente des Graphikfensters erzeugt.
  */
 
-package Selbständige;
+package ch.trinat.edu.etutorial.p03.oo6;
 
 import javax.swing.*;
+
 import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;

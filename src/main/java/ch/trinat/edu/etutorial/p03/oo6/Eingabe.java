@@ -2,7 +2,7 @@
  * Diese Klasse erzeugt die Eingabefelder im Graphikfenster.
  */
 
-package Selbständige;
+package ch.trinat.edu.etutorial.p03.oo6;
 
 import java.awt.*;
 import java.util.*;

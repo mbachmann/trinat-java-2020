@@ -1,6 +1,6 @@
 //Diese Klasse modelliert ein Adressbuch. Einzelne Eintr�ge werden in einem Vector gespeichert.
 
-package Selbständige;
+package ch.trinat.edu.etutorial.p03.oo6;
 
 import java.util.*;
 
