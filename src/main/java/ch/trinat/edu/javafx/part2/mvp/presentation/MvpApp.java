@@ -8,7 +8,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class MvvmApp extends Application {
+public class MvpApp extends Application {
 
     private StudentModel studentModel;
     private DomainController domainController;
