@@ -46,11 +46,11 @@ public class Selbstandig extends Application{
 	
 	public static String random() {
 		
-		String [] mögligkeit = {"Wir gehen ins Kino","Wir gehen ins Restaurant","Wir gehen Schwimmen","Wir bleiben zu Hause","Wir wandern","Wir gehen schlafen","Wir gehen ans Fussballspiel","Wir spielen Tennis","Wir fahren zu OPa und Oma"};
+		String [] mogligkeit = {"Wir gehen ins Kino","Wir gehen ins Restaurant","Wir gehen Schwimmen","Wir bleiben zu Hause","Wir wandern","Wir gehen schlafen","Wir gehen ans Fussballspiel","Wir spielen Tennis","Wir fahren zu OPa und Oma"};
 
 		int random = (int) (Math.random()*8);
 		
-		answer = mögligkeit [random];
+		answer = mogligkeit [random];
 		return answer;
 	}
 	
