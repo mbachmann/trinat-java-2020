@@ -23,11 +23,11 @@ public class DecisionButton2 extends Application {
 
 		primaryStage.setTitle("Entscheidungsknopf");
 		Vector <String> auswahl = null;
-		String[] events = {"Kino", "Konzert", "Essen gehen", "Spazieren gehen", "Fernsehen", "Rheinschwimmen", "Bleiben Sie Zuhause (Alain Berset, 2020)"};
+		//String[] events = {"Kino", "Konzert", "Essen gehen", "Spazieren gehen", "Fernsehen", "Rheinschwimmen", "Bleiben Sie Zuhause (Alain Berset, 2020)"};
 
-		for (int i = 0; i < events.length; i++) {
-			auswahl.add(events[i]);
-		}
+		//for (int i = 0; i < events.length; i++) {
+			//auswahl.add(events[i]);
+		//}
 
 		ObservableList<String> entries = FXCollections.observableArrayList (auswahl);
 		ListView<String> listView = new ListView<>(entries);
