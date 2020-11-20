@@ -1,4 +1,4 @@
-package et5;
+package ch.trinat.edu.etutorial.p03.oo5;
 
 import java.util.GregorianCalendar;
 import java.util.Calendar;
@@ -12,11 +12,11 @@ public class Hauptprogramm {
 		int count = 0;
 		/*
 		GregorianCalendar datum1 = new GregorianCalendar(1931, Calendar.AUGUST,23);
-		Person anna = new Person("Allan", "Anna", "Universitätsstrasse", 6, 8006, "Zürich", datum1);
+		Person anna = new Person("Allan", "Anna", "Universitï¿½tsstrasse", 6, 8006, "Zï¿½rich", datum1);
 		GregorianCalendar datum2 = new GregorianCalendar(1900, Calendar.MAY,7);
-		Person berta = new Person("Bogart", "Berta", "Limmatgasse", 19, 8021, "Zürich", datum2);
+		Person berta = new Person("Bogart", "Berta", "Limmatgasse", 19, 8021, "Zï¿½rich", datum2);
 		GregorianCalendar datum3 = new GregorianCalendar(1906, Calendar.NOVEMBER,14);
-		Person carl = new Person("Kraus", "Carl", "Bahnhofstrasse", 89, 8001, "Zürich", datum3);
+		Person carl = new Person("Kraus", "Carl", "Bahnhofstrasse", 89, 8001, "Zï¿½rich", datum3);
 
 		Person [] adressbuch = new Person[30];
 		int count = 0;
