@@ -71,10 +71,16 @@ public class DecisionButton2 extends Application {
 				}
 			});
 			
+			//Liste anzeigen was gespeichert ist
+			ListView<String> listView = new ListView<>(entries);
+			SelectionModel<String> selectionModel = listView.getSelectionModel();
+			VBox vBox = new VBox(hBox, listView);
+			
 			BorderPane layout = new BorderPane();
 			layout.setCenter(button);
-			layout.setTop(hBox);
+			layout.setTop(vBox);
 			
+			//Anzeigen
 			Scene scene = new Scene(layout, 500, 500);
 			primaryStage.setScene(scene);
 			primaryStage.show();
