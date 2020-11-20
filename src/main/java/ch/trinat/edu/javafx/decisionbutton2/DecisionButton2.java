@@ -1,8 +1,5 @@
 package ch.trinat.edu.javafx.decisionbutton2;
 
-import java.util.Arrays;
-import java.util.Vector;
-
 import javafx.application.Application;
 import javafx.collections.*;
 import javafx.event.ActionEvent;
