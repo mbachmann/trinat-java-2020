@@ -28,14 +28,14 @@
 			<artifactId>core-jar</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/core.jar</systemPath>
+			<systemPath>${pom.basedir}/lib/core.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>org.vterm</groupId>
 			<artifactId>VTerm104-jar</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/VTerm104.jar</systemPath>
+			<systemPath>${pom.basedir}/lib/VTerm104.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>org.openjfx</groupId>
