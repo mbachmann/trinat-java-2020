@@ -1,5 +1,6 @@
 package ch.trinat.edu.javafx.decisionbutton2;
 
+import java.util.Arrays;
 import java.util.Vector;
 
 import javafx.application.Application;
@@ -17,22 +18,18 @@ public class DecisionButton2 extends Application {
 		return options.get(random);
 	}
 
-	
+
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 
 		primaryStage.setTitle("Entscheidungsknopf");
-		Vector <String> auswahl = null;
-		//String[] events = {"Kino", "Konzert", "Essen gehen", "Spazieren gehen", "Fernsehen", "Rheinschwimmen", "Bleiben Sie Zuhause (Alain Berset, 2020)"};
-
-		//for (int i = 0; i < events.length; i++) {
-			//auswahl.add(events[i]);
-		//}
+		String[] events = {"Kino", "Konzert", "Essen gehen", "Spazieren gehen", "Fernsehen", "Rheinschwimmen", "Bleiben Sie Zuhause (Alain Berset, 2020)"};
+		Vector<String> auswahl = new Vector<>(Arrays.asList(events));
 
 		ObservableList<String> entries = FXCollections.observableArrayList (auswahl);
 		ListView<String> listView = new ListView<>(entries);
-		
-		
+
+
 
 		Button addButton = new Button("Neu");
 		Button button = new Button("Klick mich");
