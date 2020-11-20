@@ -11,13 +11,13 @@ import javafx.stage.Stage;
 public class ListViewExample extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		
+
 		primaryStage.setTitle("ListView Experiment 1");
 		final String[] names = { "Micha", "Andi", "Andy", "Tom", "Matze" };
 		final ObservableList<String> entries = FXCollections.observableArrayList (names);
 		final ListView<String> listView = new ListView<>(entries);
 		final SelectionModel<String> selectionModel = listView.getSelectionModel();
-		
+
 		Button readButton = new Button("In Konsole Auslesen");
 		Button addButton = new Button("Neu");
 		TextField textField = new TextField();
@@ -41,7 +41,7 @@ public class ListViewExample extends Application {
 		primaryStage.setScene(scene);
 		primaryStage.show();
 	}
-	
+
 	public static void main(String[] args) {
 		Application.launch(args);
 	}
