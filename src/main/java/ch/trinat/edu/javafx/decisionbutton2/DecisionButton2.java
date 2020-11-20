@@ -8,7 +8,7 @@ import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
 
-public class DecisinButton2 extends Application {
+public class DecisionButton2 extends Application {
 	
 public String zufaelligeAntwort(String[] options) {
 		
