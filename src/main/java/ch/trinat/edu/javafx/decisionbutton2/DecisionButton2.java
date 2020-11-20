@@ -31,11 +31,8 @@ public String zufaelligeAntwort(String[] options) {
 		Button button = new Button("Klick mich");
 		TextField textField = new TextField();
 		
-		HBox hbox = new HBox(addButton, textField, button
-				);
-		addButton.setOnAction(evt -> {
-			entries.add(textField.getText());
-		});
+		HBox hbox = new HBox(addButton, textField, button);
+		addButton.setOnAction(evt -> {entries.add(textField.getText());});
 		
 		button.setOnAction(evt -> button.setText(zufaelligeAntwort(events)));
 		
