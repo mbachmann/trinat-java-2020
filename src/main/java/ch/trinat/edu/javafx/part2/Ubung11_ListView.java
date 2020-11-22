@@ -17,7 +17,7 @@ public class Ubung11_ListView extends Application{
 	
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		primaryStage.setTitle("ListView Experiment 1");
+		primaryStage.setTitle("ListView Experiment");
 		
 		final String[] names = { "Micha", "Andi", "Andy", "Tom", "Matze" };
 		final ObservableList<String> entries = FXCollections.observableArrayList (names);
