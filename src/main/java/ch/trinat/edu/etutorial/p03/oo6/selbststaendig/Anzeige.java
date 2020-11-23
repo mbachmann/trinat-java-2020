@@ -2,7 +2,7 @@
  * Das Hauptprogramm. Hier werden alle Elemente des Graphikfensters erzeugt.
  */
 
-package et6_selbststaendigeAufgabe;
+package ch.trinat.edu.etutorial.p03.oo6.selbststaendig;
 
 import javax.swing.*;
 import java.awt.*;
@@ -21,7 +21,7 @@ public class Anzeige {
 		Adressbuch adressbuch;
 
 		text = new JTextArea();
-		text.append("Wählen Sie 'Person' oder einen Subtyp von 'Person' aus, um die Eingabemaske anzuzeigen.");
+		text.append("Wï¿½hlen Sie 'Person' oder einen Subtyp von 'Person' aus, um die Eingabemaske anzuzeigen.");
 		adressbuch = new Adressbuch();
 
 		kontrolle = new Kontrolle (adressbuch, text, classes, frame);
@@ -47,7 +47,7 @@ public class Anzeige {
 	public static void main(String[] args) {
 		JFrame frame = new JFrame("Adressbuch");
 		/**
-		 * Hier alle möglichen Klassen mit <klassenname>.class eintragen:
+		 * Hier alle moeglichen Klassen mit <klassenname>.class eintragen:
 		 */
 		Class [] classes = {Person.class, Hundebesitzer.class, Zoowaerter.class, Bauer.class};
 		Anzeige anzeige = new Anzeige(frame, classes);

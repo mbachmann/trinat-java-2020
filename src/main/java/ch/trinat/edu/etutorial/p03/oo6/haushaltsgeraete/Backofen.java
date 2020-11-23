@@ -1,4 +1,4 @@
-package et6_haushaltsgeraete;
+package ch.trinat.edu.etutorial.p03.oo6.haushaltsgeraete;
 
 public class Backofen extends Haushaltsgeraet {
 	
@@ -16,7 +16,7 @@ public class Backofen extends Haushaltsgeraet {
 		temperatur = t;
 		hitze = h;
 		on = true;
-		status = "läuft mit " + t + "°C, " + h;
+		status = "lï¿½uft mit " + t + "ï¿½C, " + h;
 	}
 	
 	// @Override

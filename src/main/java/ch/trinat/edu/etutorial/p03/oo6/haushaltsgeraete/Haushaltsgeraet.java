@@ -1,4 +1,4 @@
-package et6_haushaltsgeraete;
+package ch.trinat.edu.etutorial.p03.oo6.haushaltsgeraete;
 
 public abstract class Haushaltsgeraet {
 	

@@ -1,4 +1,4 @@
-package et6_Mensa;
+package ch.trinat.edu.etutorial.p03.oo6.mensa;
 
 import java.io.*;
 
@@ -32,7 +32,7 @@ public class Mensa {
 				zutaten[j] = ntemp;
 			}
 
-			// Zufallszahlen für Menu
+			// Zufallszahlen fï¿½r Menu
 			int beilage = (int) (Math.random() * 3);
 			int fleisch = (int) (Math.random() * 4 + 3);
 			int gemuese = (int) (Math.random() * 4 + 7);

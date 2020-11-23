@@ -1,4 +1,4 @@
-package et6_Mensa;
+package ch.trinat.edu.etutorial.p03.oo6.mensa;
 
 public class Menu extends Nahrungsmittel {
 	Nahrungsmittel fleisch, gemuese, beilage;

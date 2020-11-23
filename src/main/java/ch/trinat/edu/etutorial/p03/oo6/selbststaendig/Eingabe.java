@@ -2,7 +2,7 @@
  * Diese Klasse erzeugt die Eingabefelder im Graphikfenster.
  */
 
-package et6_selbststaendigeAufgabe;
+package ch.trinat.edu.etutorial.p03.oo6.selbststaendig;
 
 import java.awt.*;
 import java.util.*;
@@ -19,7 +19,7 @@ public class Eingabe extends JPanel {
         try {
             String[] anzeige = (String[])(type.getField("anzeige").get(null));
 
-            //Layout für Eingabefelder
+            //Layout fï¿½r Eingabefelder
             GridBagLayout gridbag=new GridBagLayout();
             GridBagConstraints c = new GridBagConstraints();
             setLayout(gridbag);

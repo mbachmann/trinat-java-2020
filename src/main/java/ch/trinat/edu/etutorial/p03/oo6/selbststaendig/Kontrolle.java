@@ -2,7 +2,7 @@
  * In dieser Klasse werden die Buttons und die Dropdown-Liste erzeugt.
  */
 
-package et6_selbststaendigeAufgabe;
+package ch.trinat.edu.etutorial.p03.oo6.selbststaendig;
 
 import javax.swing.*;
 import javax.swing.JPanel;
@@ -62,11 +62,11 @@ public class Kontrolle extends JPanel {
             }
         });
         
-        JButton del = new JButton("Einträge löschen");
+        JButton del = new JButton("Eintrï¿½ge lï¿½schen");
         add(del);
         del.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {  
-                text.append("\n Alle Einträge gelöscht.\n");
+                text.append("\n Alle Eintrï¿½ge gelï¿½scht.\n");
                 adressbuch.deleteAll();
             }
         });

@@ -1,4 +1,4 @@
-package et6_selbststaendigeAufgabe;
+package ch.trinat.edu.etutorial.p03.oo6.selbststaendig;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;

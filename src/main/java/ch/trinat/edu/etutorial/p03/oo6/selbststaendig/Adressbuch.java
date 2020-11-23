@@ -1,7 +1,6 @@
-/*
- * Diese Klasse modelliert ein Adressbuch. Einzelne Einträge werden in einem Vector gespeichert.
- */
-package et6_selbststaendigeAufgabe;
+// Diese Klasse modelliert ein Adressbuch. Einzelne Eintraege werden in einem Vector gespeichert.
+ 
+package ch.trinat.edu.etutorial.p03.oo6.selbststaendig;
 
 import java.util.*;
 

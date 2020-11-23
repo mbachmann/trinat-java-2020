@@ -1,4 +1,4 @@
-package et6_haushaltsgeraete;
+package ch.trinat.edu.etutorial.p03.oo6.haushaltsgeraete;
 
 public class Mikrowelle extends Haushaltsgeraet {
 	
@@ -16,7 +16,7 @@ public class Mikrowelle extends Haushaltsgeraet {
 		leistung = l;
 		zeit = z;
 		on = true;
-		status = "läuft " + z + " Minuten mit " + l + "W.";
+		status = "lï¿½uft " + z + " Minuten mit " + l + "W.";
 	}
 	
 	public void stop() {

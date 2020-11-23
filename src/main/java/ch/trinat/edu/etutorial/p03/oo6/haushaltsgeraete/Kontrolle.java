@@ -1,4 +1,4 @@
-package et6_haushaltsgeraete;
+package ch.trinat.edu.etutorial.p03.oo6.haushaltsgeraete;
 /* * Created on 19.06.2007
  */
 import javax.swing.*;
@@ -25,10 +25,10 @@ public class Kontrolle {
                 an++;
             }
         }
-        String text1 = an + " Geräte sind bereit oder laufen normal.\n";
-        String text2 = (geraete.length-an) + " Geräte haben eine Störung.\n";
-        if (an==1) { text1 = an + " Gerät ist bereit oder läuft normal.\n"; }
-        if ((geraete.length-an)==1) { text2 = "1 Gerät hat eine Störung.\n"; }
+        String text1 = an + " Gerï¿½te sind bereit oder laufen normal.\n";
+        String text2 = (geraete.length-an) + " Gerï¿½te haben eine Stï¿½rung.\n";
+        if (an==1) { text1 = an + " Gerï¿½t ist bereit oder lï¿½uft normal.\n"; }
+        if ((geraete.length-an)==1) { text2 = "1 Gerï¿½t hat eine Stï¿½rung.\n"; }
         text.append(text1);
         text.append(text2);
         
@@ -67,7 +67,7 @@ public class Kontrolle {
             c.weightx = 0.5;
             
             c.gridx = 0;
-            l = new JLabel("Gerät");
+            l = new JLabel("Gerï¿½t");
             c.gridy = 0;
             gridbag.setConstraints(l,c);
             add(l);
@@ -109,7 +109,7 @@ public class Kontrolle {
                 l.setFont((l.getFont()).deriveFont(Font.PLAIN));
                 add(l);
                 c.gridx++;
-                l = new JLabel("°");
+                l = new JLabel("ï¿½");
                 l.setFont((l.getFont()).deriveFont(30f));
                 if (!geraete[i].hatFehler()) {
                     l.setForeground(Color.GREEN);
@@ -130,18 +130,18 @@ public class Kontrolle {
     public static void main(String[] args) {
         
      /**************************************************************
-      * Erzeugen und starten Sie hier verschiedene Haushaltsgeräte
-      * und füllen Sie diese in den Array 'geraete':
+      * Erzeugen und starten Sie hier verschiedene Haushaltsgerï¿½te
+      * und fï¿½llen Sie diese in den Array 'geraete':
       * 
       * Haushaltsgeraet [] geraete = {.......};
       * 
       **************************************************************
       */
     	    	
-    	Backofen backofen1 = new Backofen("Ofen 1", "Küche");
-    	Backofen backofen2 = new Backofen("Ofen 2", "Küche");
-    	Mikrowelle mikrowelle1 = new Mikrowelle("Mikrowelle 1", "Küche");
-    	Waschmaschine waschmaschine1 = new Waschmaschine("Waschmaschine 1", "Waschküche");
+    	Backofen backofen1 = new Backofen("Ofen 1", "Kï¿½che");
+    	Backofen backofen2 = new Backofen("Ofen 2", "Kï¿½che");
+    	Mikrowelle mikrowelle1 = new Mikrowelle("Mikrowelle 1", "Kï¿½che");
+    	Waschmaschine waschmaschine1 = new Waschmaschine("Waschmaschine 1", "Waschkï¿½che");
     	
     	backofen1.start(180, "Umluft");
     	backofen2.start(250, "Grill");
@@ -151,7 +151,7 @@ public class Kontrolle {
     	Haushaltsgeraet [] geraete = {backofen1, backofen2, mikrowelle1, waschmaschine1};
       
         
-        JFrame  frame = new JFrame("Geräteüberwachung");
+        JFrame  frame = new JFrame("Gerï¿½teï¿½berwachung");
         Kontrolle kontrolle = new Kontrolle(frame, geraete);
         
         frame.addWindowListener(new WindowAdapter() {

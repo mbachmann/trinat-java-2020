@@ -1,4 +1,4 @@
-package et5;
+package ch.trinat.edu.etutorial.p03.oo5;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;

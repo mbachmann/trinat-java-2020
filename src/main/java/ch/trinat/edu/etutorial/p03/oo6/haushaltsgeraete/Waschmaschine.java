@@ -1,4 +1,4 @@
-package et6_haushaltsgeraete;
+package ch.trinat.edu.etutorial.p03.oo6.haushaltsgeraete;
 
 public class Waschmaschine extends Haushaltsgeraet {
 	
@@ -16,10 +16,10 @@ public class Waschmaschine extends Haushaltsgeraet {
 		waschprogramm = w;
 		menge = m;
 		on = true;
-		status = "läuft mit Waschprogramm " + w + " mit Menge " + m + "kg.";
+		status = "lï¿½uft mit Waschprogramm " + w + " mit Menge " + m + "kg.";
 		if (menge > 6) {
 			fehler = true;
-			fehlermeldung = "Maschine überladen";
+			fehlermeldung = "Maschine ï¿½berladen";
 			status = "Fehler";
 		}
 	}

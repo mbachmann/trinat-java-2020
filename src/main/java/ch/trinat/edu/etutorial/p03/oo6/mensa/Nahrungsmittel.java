@@ -1,4 +1,4 @@
-package et6_Mensa;
+package ch.trinat.edu.etutorial.p03.oo6.mensa;
 
 public class Nahrungsmittel {
 
@@ -22,7 +22,7 @@ public class Nahrungsmittel {
 	// Konstruktor Nahrungsmittel
 	public Nahrungsmittel (String n) {
 		name = n;
-		naehrwerte = new double[28][3]; // Initialisieren für 28 Naehrwerte, 3 Werte pro Naehrwert.
+		naehrwerte = new double[28][3]; // Initialisieren fï¿½r 28 Naehrwerte, 3 Werte pro Naehrwert.
 		gekocht = false;
 		gefroren = false;
 	}
