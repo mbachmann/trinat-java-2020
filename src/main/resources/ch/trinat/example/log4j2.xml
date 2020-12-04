@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+  <Appenders>
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+    </Console>
+    <File name="ErrorFile" fileName="logs/error.log">
+      <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+    </File>
+    <File name="WarnFile" fileName="logs/warn.log">
+      <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+    </File>
+    <File name="SpecificFile" fileName="logs/specific.log">
+      <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+    </File>
+  </Appenders>
+  <Loggers>
+    <Root level="trace">
+      <AppenderRef ref="WarnFile" level="WARN" />
+      <AppenderRef ref="ErrorFile" level="ERROR" />
+      <AppenderRef ref="Console" level="DEBUG" />
+    </Root>
+    <Logger name="test.LoggingTestSpecific" level="INFO" additivity="false">
+      <AppenderRef ref="SpecificFile" />
+    </Logger>
+  </Loggers>
+</Configuration>

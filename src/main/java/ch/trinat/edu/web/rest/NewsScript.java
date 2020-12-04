@@ -36,7 +36,8 @@ public class NewsScript {
 
     public static void main(String[] args) {
         System.out.println("### NewsScript! v1.0: Get Daily News ###");
-        String API_KEY = "<your api key here>";
+        // String API_KEY = "<your api key here>";
+        String API_KEY = "6b1fffe09e02470eae49cb3c83b079af";
 
         var client = HttpClient.newHttpClient();
 
