@@ -26,6 +26,7 @@ public class MvpApp extends Application {
         Presenter presenter = (Presenter) loader.getController();
         presenter.setDomainController(domainController);
         studentModel.addPropertyChangeListener( e -> presenter.onStudentNameChanged(e.getNewValue().toString()));
+        studentModel.addPropertyChangeListener( e -> this.onStudentNameChanged(e.getNewValue().toString()));
 
         //add root to the window and show it
         primaryStage.setTitle("Hello World");
@@ -41,5 +42,9 @@ public class MvpApp extends Application {
         studentModel = new StudentModel(1, "Felix Muster");
         domainController = new DomainController(studentModel);
 
+    }
+
+    private void onStudentNameChanged(String name) {
+        System.out.println(name);
     }
 }
