@@ -1,15 +1,13 @@
 package ch.trinat.edu.javafx.EntscheidungsKnopf;
 
-import java.util.Random;
-
 import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
-import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.effect.DropShadow;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.Stage;
+
+import java.util.Random;
 
 public class EntscheidungsKnopf extends Application {
 

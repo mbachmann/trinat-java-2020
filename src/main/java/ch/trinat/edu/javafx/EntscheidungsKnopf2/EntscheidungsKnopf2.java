@@ -1,13 +1,7 @@
 package ch.trinat.edu.javafx.EntscheidungsKnopf2;
 
-import java.util.Random;
-import java.util.Vector;
-
 import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.geometry.Insets;
-import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -16,6 +10,10 @@ import javafx.scene.effect.DropShadow;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
+
+import java.util.Random;
+import java.util.Vector;
 
 public class EntscheidungsKnopf2 extends Application {
 

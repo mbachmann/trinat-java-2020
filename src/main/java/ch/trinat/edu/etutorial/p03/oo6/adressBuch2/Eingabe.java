@@ -4,23 +4,22 @@ package ch.trinat.edu.etutorial.p03.oo6.adressBuch2;
  * Diese Klasse erzeugt die Eingabefelder im Graphikfenster.
  */
 
-import java.awt.*;
-import java.util.*;
 import javax.swing.*;
+import java.awt.*;
 
 public class Eingabe extends JPanel {
 
     JTextField[] fields;
     Class type;
 
-   
+
     public void zeigeAn() {
 
         try {
-            String[] anzeige = (String[])(type.getField("anzeige").get(null));
+            String[] anzeige = (String[]) (type.getField("anzeige").get(null));
 
             //Layout für Eingabefelder
-            GridBagLayout gridbag=new GridBagLayout();
+            GridBagLayout gridbag = new GridBagLayout();
             GridBagConstraints c = new GridBagConstraints();
             setLayout(gridbag);
 
@@ -35,55 +34,55 @@ public class Eingabe extends JPanel {
             l = new JLabel("Personalien und Adresse");
             c.gridwidth = GridBagConstraints.REMAINDER;
             //c.gridy = 0;
-            gridbag.setConstraints(l,c);
+            gridbag.setConstraints(l, c);
             add(l);
 
 
             l = new JLabel(" ");
             //c.gridy++;
-            gridbag.setConstraints(l,c);
+            gridbag.setConstraints(l, c);
             add(l);
 
-            for (int i=0; i<anzeige.length; i++) {
+            for (int i = 0; i < anzeige.length; i++) {
                 c.fill = GridBagConstraints.HORIZONTAL;
                 c.gridwidth = GridBagConstraints.RELATIVE;
                 l = new JLabel(anzeige[i] + ":  ");
-                gridbag.setConstraints(l,c);
+                gridbag.setConstraints(l, c);
                 add(l);
 
                 c.fill = GridBagConstraints.NONE;
                 c.gridwidth = GridBagConstraints.REMAINDER;
-                fields[i] = new JTextField("",10);
-                gridbag.setConstraints(fields[i],c);
+                fields[i] = new JTextField("", 10);
+                gridbag.setConstraints(fields[i], c);
                 add(fields[i]);
             }
         } catch (Exception e) {
             System.out.println("Fehler in der Klasse! Kein Feld \"anzeige\" definiert.");
         }
-      
+
 
     }
 
 
-    public void makePerson (Adressbuch a) throws Exception {
+    public void makePerson(Adressbuch a) throws Exception {
 
         String[] input = new String[fields.length];
-        for (int i=0; i<fields.length; i++) {
-			input[i] = fields[i].getText();
+        for (int i = 0; i < fields.length; i++) {
+            input[i] = fields[i].getText();
         }
         Class[] paramTypes = {String[].class};
         Object[] initargs = {input};
-        a.addPerson((Person)(type.getConstructor(paramTypes).newInstance(initargs)));
+        a.addPerson((Person) (type.getConstructor(paramTypes).newInstance(initargs)));
     }
 
-    public void resetFields () {
-        for (int i=0; i<fields.length; i++) {
-            fields[i].setText("");
+    public void resetFields() {
+        for (JTextField field : fields) {
+            field.setText("");
         }
 
     }
-    
-    public void reset () {
+
+    public void reset() {
         removeAll();
     }
 

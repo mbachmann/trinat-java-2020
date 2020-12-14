@@ -1,6 +1,8 @@
 package ch.trinat.edu.etutorial.p03.oo5;
-import java.util.*;
-import java.text.*;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 
 public class Person {
 

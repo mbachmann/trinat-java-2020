@@ -1,6 +1,8 @@
 package ch.trinat.edu.etutorial.p03.oo5;
-import java.util.*;
-import java.io.*;
+
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.GregorianCalendar;
 
 public class AdressBuch {
 

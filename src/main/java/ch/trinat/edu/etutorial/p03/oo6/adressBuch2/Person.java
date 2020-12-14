@@ -1,7 +1,8 @@
 package ch.trinat.edu.etutorial.p03.oo6.adressBuch2;
 
-import java.util.*;
-import java.text.*;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 
 public class Person {
 	// String Array - für die Felder im Fenster
