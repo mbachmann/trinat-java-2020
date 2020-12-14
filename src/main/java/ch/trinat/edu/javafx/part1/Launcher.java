@@ -1,9 +1,9 @@
-package ch.trinat.edu.javafx.part2;
+package ch.trinat.edu.javafx.part1;
 
 public class Launcher {
 
     public static void main(String[] args) {
-        Uebung8.main(args);
+        Uebung1.main(args);
     }
 
 }
